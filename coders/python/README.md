@@ -63,6 +63,10 @@ You can try using a cmd to upgrade, but you may need to download.
 
 [Download Anaconda](https://www.anaconda.com/download)
 
+To open, run in folder containing the .ipynb file(s).
+
+	jupyter notebook
+
 ## Docker
 
 On a Mac, if the `docker` cmd is not recognized, add the path `$HOME/.docker/bin` in the config file corresponding to your command terminal instance:  In the **Users\\[username]** folder, edit one of these hidden files: .zshrc, .bash_profile, .bashrc or .profile.
