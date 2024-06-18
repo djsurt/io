@@ -2,11 +2,16 @@
 
 ## Node and npm
 
-Check your versions
+Check your versions. nvm optional.
 
 	node -v
 	npm -v
 
+
+We're avoiding node v22 because it has a [punycode error](https://stackoverflow.com/questions/68774489/punycode-is-deprecated-in-npm-what-should-i-replace-it-with) in data-commons build.  Run this BEFORE invoking a virtual environment.
+
+	nvm install 20.14.0
+	nvm use 20.14.0
 
 To installing node if the version commands find nothing:
 
