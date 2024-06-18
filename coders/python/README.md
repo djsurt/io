@@ -32,7 +32,7 @@ Or directly update to the latest stable version of NodeJS if you are not using n
 
 ## pip
 
-How to stop your virtual environment and update pip
+How to stop your virtual environment and update pip. &nbsp;Avoid appending 3 (as in pip3 or python3) once in a virtual environment.
 
 	ctrl-c
 	python -m pip install --upgrade pip
