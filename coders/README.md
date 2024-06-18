@@ -74,6 +74,11 @@ Join us in our [Google Meetups](https://meet.google.com/pcv-xrdh-bat) (Eastern T
 - Wednesday, 10 PM EDT - [International EEIO](https://eeiomodel.com), [State Impacts](/localsite/info/#geoview=country)
 - Thursday, <span style="text-decorationX: line-through">Noon</span> EDT - [Project overviews](/projects/), [Open WebUI](/projects/src/), [Python Pipeline](/data-pipeline/timelines/)
 - Sunday, 10 PM EDT - [RealityStream](/RealityStream/), [React IO](/io/charts/), [ML Forecasting](/data-pipeline/timelines/)
+
+Starting June 26th we're switching to 2 days:  
+- Wednesday, <span style="text-decorationX: line-through">Noon</span> EDT - [Project overviews](/projects/), [Open WebUI](/projects/src/), [ML Forecasting](/data-pipeline/timelines/)
+- Sunday, 10 PM EDT - [RealityStream](/RealityStream/), [React IO](/io/charts/), [Timelines and Python Pipeline](/data-pipeline/timelines/)
+
 <!--
 - [Other evenings plus Monday and Tuesday afternoons](https://meet.google.com/pcv-xrdh-bat)-->
 
