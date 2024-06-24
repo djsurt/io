@@ -1,6 +1,6 @@
 # API's for Workflow
 
-We're creating embedable [input-output apps](../../community/tools/) for product lifecycle analysis and workflow automation using [BlueSky Feeds](../../feed/view/#feed=bsky).
+We're creating embedable [input-output apps](../../community/tools/) for product comparisons and workflow automation using [BlueSky Feeds](../../feed/view/#feed=bsky).
 
 We're using [Open WebUI](../../projects/src/) to intereact with data and visualizations from our [Google Data Commons UN Goal Timelines](../../data-commons/)
 

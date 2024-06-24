@@ -15,7 +15,8 @@ We're avoiding node v22 because it has a [punycode error](https://stackoverflow.
 
 To installing node if the version commands find nothing:
 
-[NPMjs.com](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) recommends installing a Node Version Manager like [nvm](https://github.com/nvm-sh/nvm) to avoid permission errors when you run npm packages globally. Then run `nvm ls` to see all the node versions you have installed. Update nvm and install the latest version of node:
+[NPMjs.com](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) recommends installing a Node Version Manager like [nvm](https://github.com/nvm-sh/nvm) to avoid permission errors when you run npm packages globally.  
+Run `nvm ls` to see all the node versions you have installed. Update nvm and install the latest version of node:
 
 	nvm install --lts --reinstall-packages-from=current
 	nvm install node
@@ -40,6 +41,10 @@ How to stop your virtual environment and update pip. &nbsp;Avoid appending 3 (as
 
 
 ## Python
+
+Check python version (may differ in your virtual environments)
+
+	python --version
 
 Install the latest Python.
 
