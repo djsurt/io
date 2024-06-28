@@ -11,6 +11,17 @@
 
 View our [Product YAML notes](../product/) for steps on using Postman.  
 
+## To try with BuildingTransparency.org
+
+The follow technique is used in the [useeio.js](https://github.com/modelearth/useeio.js) repo to download an API to json files.
+
+Try adding an API key to dumpjson-bldg-transparency.js or try appending here.
+Note that API keys expire every 3 days. [Get a BuildingTransparency.org key].
+
+```
+$ node scripts/dumpjson-bldg-transparency.js --endpoint https://openepd.buildingtransparency.org/api/epds?page_number=1&page_size=10
+```
+
 
 ## Display Footprints from Static Files
 
