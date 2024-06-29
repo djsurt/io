@@ -1,7 +1,7 @@
 # Overview
 
-[Active Projects](../../../projects/) - For the Sustainable Community Web Challenge    
-[View Starter Samples](../../apps/) - Roll up your sleeves and get coding  
+[Active Projects](../../../projects/) - Combining data science visualizaitons with LLM Chat
+[View Starter Samples](../../localsite/start/) - Roll up your sleeves and get coding  
 
 [Industry Evaluator](../../localsite/info/) - Top Industries by County  
 [Impact Bubble Chart](../../io/charts/bubble/) - Choose 3 indicators for industry comparison    
@@ -24,7 +24,7 @@ Contributors focus on the following based on their areas of interest:
 ✪ React Vite
 ✪ Python Data Prep  
 ✪ JQuery, Javascript
-✪ Data Visualization  
+✪ eCharts and D3 Data Visualization  
 ✪ Geospatial Mapping using Leaflet and Mapbox
 
 [Active Project Areas](/projects) 
