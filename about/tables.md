@@ -2,7 +2,7 @@
 
 Generating from [USEEIOR model objects](https://github.com/USEPA/useeior/blob/master/format_specs/Model.md)
 Table names are Row\_Column from [matrix tables](matrix/).
-Source json data: [2020 US States](https://github.com/ModelEarth/OpenFootprint/tree/main/impacts/2020)
+Source json data: [2020 US States](https://github.com/ModelEarth/OpenFootprint/tree/main/impacts/2020) - [CoLab](https://colab.research.google.com/drive/1CYKNTnLiZ_PbP5WS_dMVtYyYDIAFwzq8?usp=sharing)
 Also see our [International Trade SQL](/useeio.js/footprint/)
 
 | Table Name | Source |
