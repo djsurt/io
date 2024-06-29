@@ -21,10 +21,12 @@ Our volunteer teams create job and manufacturing reports, business/product direc
 
 Contributors focus on the following based on their areas of interest:
 
-✪ React Vite
-✪ Python Data Prep  
+✪ React Vite, NextJS
+✪ Python Data Prep and ML Forecasting  
 ✪ JQuery, Javascript
+✪ Supabase and DuckDB
 ✪ eCharts and D3 Data Visualization  
+✪ LLM Chatbot UI for Data Science, Open WebUI  
 ✪ Geospatial Mapping using Leaflet and Mapbox
 
 [Active Project Areas](/projects) 
