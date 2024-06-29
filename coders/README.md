@@ -72,13 +72,13 @@ View our [Active Projects](../../projects/) and find your areas of interest.
 Join us in our [Google Meetups](https://meet.google.com/pcv-xrdh-bat) (Eastern Time, NY and Atlanta)
 <!-- Moonshot Mondays, 10 PM EDT - [UN Goals](/data-commons/dist/), [Lunar Olympics AI](/projects/)-->
 
-- [Wednesday @ Noon EDT](https://meet.google.com/pcv-xrdh-bat) 
+**[Wednesday @ Noon EDT](https://meet.google.com/pcv-xrdh-bat)** 
 [Project overviews](/projects/), [Open WebUI](/projects/src/), [EarthScape LLMs](/earthscape/)
 
-- [Friday @ 5 PM EDT](https://meet.google.com/pcv-xrdh-bat) 
+**[Friday @ 5 PM EDT](https://meet.google.com/pcv-xrdh-bat)**
 SQL with [international trade data](/useeio.js/footprint/)
 
-- [Sunday @ 10 PM EDT](https://meet.google.com/pcv-xrdh-bat) 
+**[Sunday @ 10 PM EDT](https://meet.google.com/pcv-xrdh-bat)**
 [RealityStream](/RealityStream/), [React FeedPlayer](/feed/), [Timelines and Python Pipeline](/data-pipeline/timelines/)
 
 <!--
@@ -86,9 +86,16 @@ SQL with [international trade data](/useeio.js/footprint/)
 
 [Our Google Meetup link](https://meet.google.com/pcv-xrdh-bat)  remains the same for all meetings.
 
-Create API mashups for environmental impacts, nutritional meals, local job levels, industry timelines and [sustainable product profiles](../../io/template/).  
+---
 
-- [BlueSky](https://bsky.app/profile/modelearth.bsky.social) - Follow for our [project](/projects) posts ([Our evolving feed alternative](/feed/view/#feed=bsky) to Slack)
+### Open WebUI and Earthscape
+
+We're using [Open WebUI](../../projects/src/) and [Earthscape](../../earthscape/app/) to intereact with data from [Google Data Commons](../../data-commons/) in [Open Data Panels](/OpenFootprint).
+
+[We're creating an API Feed Player](/feed/intro.html) for local [supply chains and job levels](/localsite/info/), [industry timelines](/data-pipeline/timelines/), [food labels](/data-commons/docs/food/) and [product profiles](../../io/template/).  
+
+<!--
 - [Connect with us at Democracy Lab if you haven't already](https://www.democracylab.org/projects/834)
-- [Get Started by installing our Localsite repos (with one cmd)](../../localsite/start/steps/)<!-- [Join our Democracy Lab Slack Group](https://democracylab-org.slack.com/archives/C06F73YKEQN)-->
-- [Team GitHub Discussion](https://github.com/orgs/ModelEarthTeam/discussions) - [OpenFootprint OC](https://opencollective.com/openfootprint) - [ModelEarth OC](https://opencollective.com/modelearth)
+- [Get Started by installing our Localsite repos (with one cmd)](../../localsite/start/steps/)
+- [OpenFootprint OC](https://opencollective.com/openfootprint) - [ModelEarth OC](https://opencollective.com/modelearth)
+--><!-- [Join our Democracy Lab Slack Group](https://democracylab-org.slack.com/archives/C06F73YKEQN)-->
