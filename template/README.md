@@ -1,5 +1,6 @@
-[Select states and counties](#geoview=country) to explore local industry impacts.
-[Product Footprints](/OpenFootprint/products/) - [API YAML to JSON and HTML](parser/) - [Stand-alone&nbsp;Sample](parser/sample.html)
+[API YAML to JSON and HTML](parser/) - [Product Label Sample](parser/sample.html)
+[Select states and counties](#geoview=country) to explore local industry impacts
+[Product Comparisons](/OpenFootprint/products/) - Building Transparency
 
 ---
 <br>
