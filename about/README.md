@@ -24,7 +24,7 @@ Learn about [the USEEIO API](api/)-->
 - 2024: Additions to [Community Data](https://model.earth/community-data/) for industry timelines
 <br>
 
-[USEEIO Versions](https://www.epa.gov/land-research/us-environmentally-extended-input-output-useeio-technical-content) - [Intern Projects](../../io/projects/) - [Starter Samples](../../localsite/start/)  
+[USEEIO Versions](https://www.epa.gov/land-research/us-environmentally-extended-input-output-useeio-technical-content) - [Volunteer Projects](../../io/projects/) - [Starter Samples](../../localsite/start/)  
 
 
 <!--

@@ -1,4 +1,4 @@
-#Overview
+# Overview
 
 [Active Projects](../../../projects/) - For the Sustainable Community Web Challenge    
 [View Starter Samples](../../apps/) - Roll up your sleeves and get coding  
@@ -9,9 +9,9 @@
 
 [More Embeddable IO Widgets](../charts)
 
-## Volunteers and Internships
+## Volunteer Developers
 
-Volunteers and interns contribute to our job and manufacturing reports, business/product directories, regional supply chains, energy use, air and water quality apps, and land use reports using data from the following:
+Our volunteer teams create job and manufacturing reports, business/product directories, regional supply chain visualizations, energy use, air and water quality apps, and land use reports using data from the following:
 
 ✪ US Bureau of Economic Analysis (BEA)  
 ✪ US Bureau of Labor Statistics (BLS)  
@@ -19,7 +19,7 @@ Volunteers and interns contribute to our job and manufacturing reports, business
 ✪ US Census Bureau County Business Patterns  
 ✪ Contributions from State and Local Agencies  
 
-Interns focus on the following based on their areas of interest:
+Contributors focus on the following based on their areas of interest:
 
 ✪ React Vite
 ✪ Python Data Prep  
