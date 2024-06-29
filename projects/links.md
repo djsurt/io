@@ -1,6 +1,6 @@
 # Overview
 
-[Active Projects](../../../projects/) - Combining data science visualizaitons with LLM Chat
+[Active Projects](../../../projects/) - Combining data science visualizations with LLM Chat
 [View Starter Samples](../../localsite/start/) - Roll up your sleeves and get coding  
 
 [Industry Evaluator](../../localsite/info/) - Top Industries by County  
