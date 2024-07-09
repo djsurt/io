@@ -27,7 +27,7 @@ To installing node if the version commands find nothing:
 
 Or [Install node/npm](https://nodejs.org/en/download) locally. The installer includes the Node.js package manager (npm) within it, so you won't need to install npm separately.
 
-Or directly update to the latest stable version of NodeJS if you are not using nvm.
+Or directly update to the latest stable version of NodeJS if you are not using nvm. (Otherwise skip this.)
 <!-- https://askubuntu.com/questions/426750/how-can-i-update-my-nodejs-to-the-latest-version-->
 
 	npm install -g n &&
@@ -37,8 +37,10 @@ Or directly update to the latest stable version of NodeJS if you are not using n
 ## Python
 
 Check python version (may differ in your virtual environments)
+Only python3 was available after running `brew install python` after upgrading to Mac Sonoma OS.
 
 	python --version
+	python3 --version
 
 <!--
 	The above returned 2.7.16 on older mac which had Big Sur. Upgraded to Sonoma.
@@ -46,7 +48,7 @@ Check python version (may differ in your virtual environments)
 
 Install the latest Python. 
 If you don't have brew yet, [download the .pkg installer](https://brew.sh).
-You might get dialogs to install xcode also.
+You might also get a dialog to install xcode.
 
 	brew install python
 
@@ -59,7 +61,8 @@ check if you are running the pyenv python environment.
 
 	pyenv --version
 
-If so, upgrade your python versions in pyenv to 3.12 or later.
+You probably won't need pyenv now that python3 is widely supported.
+If you are running pyenv, upgrade your python versions in pyenv to 3.12 or later.
 
 	pyenv install 3.12
 	pyenv global 3.12
@@ -70,9 +73,15 @@ If so, upgrade your python versions in pyenv to 3.12 or later.
 How to stop your virtual environment and update pip. &nbsp;Avoid appending 3 (as in pip3 or python3) once in a virtual environment.
 
 	ctrl-c
-	python -m pip install --upgrade pip
+	python3 -m pip install --upgrade pip
 	pip -V
 
+
+To check which shell you are using:
+
+	echo $SHELL
+
+Open .zshrc in your home directory.
 
 ## Conda
 
