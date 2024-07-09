@@ -34,20 +34,15 @@ Or directly update to the latest stable version of NodeJS if you are not using n
 	sudo n stable
 
 
-## pip
-
-How to stop your virtual environment and update pip. &nbsp;Avoid appending 3 (as in pip3 or python3) once in a virtual environment.
-
-	ctrl-c
-	python -m pip install --upgrade pip
-	pip -V
-
-
 ## Python
 
 Check python version (may differ in your virtual environments)
 
 	python --version
+
+<!--
+	The above returned 2.7.16 on older mac which had Big Sur. Upgraded to Sonoma.
+-->
 
 Install the latest Python.
 
@@ -66,6 +61,15 @@ If so, upgrade your python versions in pyenv to 3.12 or later.
 
 	pyenv install 3.12
 	pyenv global 3.12
+
+
+## pip
+
+How to stop your virtual environment and update pip. &nbsp;Avoid appending 3 (as in pip3 or python3) once in a virtual environment.
+
+	ctrl-c
+	python -m pip install --upgrade pip
+	pip -V
 
 
 ## Conda
