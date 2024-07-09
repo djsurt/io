@@ -7,20 +7,23 @@ Check your versions. nvm optional.
 	node -v
 	npm -v
 
+[npmjs.com](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) recommends installing the Node Version Manager [nvm](https://github.com/nvm-sh/nvm) to avoid permission errors when you run npm packages globally.  
+Run `nvm ls` to see all the node versions you have installed. Update nvm and install the latest version of node:
 
-We're avoiding node v22 because it has a [punycode error](https://stackoverflow.com/questions/68774489/punycode-is-deprecated-in-npm-what-should-i-replace-it-with) in data-commons build.  Run this BEFORE invoking a virtual environment.
+**To install nvm** Use the [curl command to install nvm](https://github.com/nvm-sh/nvm). Then run the export command below it. Restart your terminal.
 
 	nvm install 20.14.0
 	nvm use 20.14.0
 
-To installing node if the version commands find nothing:
+We're avoiding node v22 because it has a [punycode error](https://stackoverflow.com/questions/68774489/punycode-is-deprecated-in-npm-what-should-i-replace-it-with) in data-commons build.  Run this BEFORE invoking a virtual environment.
 
-[NPMjs.com](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) recommends installing a Node Version Manager like [nvm](https://github.com/nvm-sh/nvm) to avoid permission errors when you run npm packages globally.  
-Run `nvm ls` to see all the node versions you have installed. Update nvm and install the latest version of node:
+<!--
+To installing node if the version commands find nothing:
 
 	nvm install --lts --reinstall-packages-from=current
 	nvm install node
 	nvm alias default node
+-->
 
 Or [Install node/npm](https://nodejs.org/en/download) locally. The installer includes the Node.js package manager (npm) within it, so you won't need to install npm separately.
 
