@@ -44,11 +44,13 @@ Check python version (may differ in your virtual environments)
 	The above returned 2.7.16 on older mac which had Big Sur. Upgraded to Sonoma.
 -->
 
-Install the latest Python.
+Install the latest Python. 
+If you don't have brew yet, [download the .pkg installer](https://brew.sh).
+You might get dialogs to install xcode also.
 
 	brew install python
 
-List all Python versions installed on your system.
+List all Python versions installed on your system. (If you get none, but `python --version` return less than 3.0, you probably need to update your OS.)
 
 	ls -l /usr/local/bin/python*
 
