@@ -81,7 +81,15 @@ To check which shell you are using:
 
 	echo $SHELL
 
-Open .zshrc in your home directory.
+If your shell is zsh, open .zshrc in your home directory. Add at the end of the file:
+
+	export PATH="/Users/MyAccount/Library/Python/3.9/bin:$PATH"
+
+Replace with the actual path where your python pip scripts are located.
+
+Close the current and open a new terminal window for the updated configuration.
+Type `echo $PATH` to verify.
+
 
 ## Conda
 
