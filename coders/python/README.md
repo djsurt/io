@@ -83,7 +83,7 @@ To check which shell you are using:
 
 If your shell is zsh, open .zshrc in your home directory. Add at the end of the file:
 
-	export PATH="/Users/MyAccount/Library/Python/3.9/bin:$PATH"
+	export PATH="/Users/Library/Python/3.9/bin:$PATH"
 
 Replace with the actual path where your python pip scripts are located.
 
