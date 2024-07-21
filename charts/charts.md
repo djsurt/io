@@ -96,12 +96,12 @@ Also see our [Javascript with API TO DOs](/useeio.js/footprint/#reports) - botto
 
 ### TO DO: Activate checkboxes to sort using multiple impact columns
 
-Currently only the URL hash supports multiple impact sorting
+Currently only the URL hash supports multiple impact sorting.
 
-[The new checkbox has beed added](https://github.com/ModelEarth/useeio-widgets/blob/master/src/widgets/sector-list/sector-list.tsx) for the Sector List in useeio-widgets at 
+[Checkbox dev](https://github.com/ModelEarth/useeio-widgets/blob/master/src/widgets/sector-list/sector-list.tsx) (see history) for the Sector List in useeio-widgets at 
 src -> widgets -> sector-list -> sector-list.tsx 
 
-The checkboxes have not yet been activated. See the specs below.
+[Build our fork of the useeio-widgets repo](https://github.com/modelearth/useeio-widgets) locally to work on the new checkboxes.
 
 1.) When clicking on the [Sector List](/io/build/sector_list.html?view=mosaic&count=100&indicators=ACID,ETOX,EUTR) column headers:
 
