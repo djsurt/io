@@ -2,7 +2,7 @@
 <div class="floatright">
 <img src="../img/logo/epa.png" style="width:100%; max-width:200px; margin-left:30px">
 </div>
-Our [Local Industry Evaluator](../../localsite/info/) contains widgets using Leaflet, JQuery and React. 
+Our [Local Industry Evaluator](../../localsite/info/) contains widgets using JQuery, Leaflet and React. 
 <!-- 
 Check out more [App Samples](../../io/) and [get started creating a site](https://model.earth/localsite/start/).  
 Add a page to the [apps repo](../../apps/)
@@ -31,7 +31,9 @@ library(devtools)
 Rstudio has devtools intalled already, so maybe just library(devtools) to call in the package
 -->
 
-[The JSON API](../build/api/note.txt) used here is generated from the EPA API which uses the [USEEIOR](https://github.com/USEPA/USEEIOR) pipeline. 
+[The JSON API](https://github.com/ModelEarth/io/tree/main/build/api) used here is generated from the [USEEIO API](https://github.com/USEPA/USEEIO_API) which uses the [USEEIOR](https://github.com/USEPA/USEEIOR) pipeline. 
+It's not necessary to interact with the USEEIO API directy.
+Upcoming data for all states resides at [OpenFootprint/impacts](/openfootprint/impacts).
 
 
 <!--(It replaces the use of [IOMB](https://github.com/USEPA/USEEIO_API/wiki/Build))-->
@@ -40,12 +42,12 @@ Rstudio has devtools intalled already, so maybe just library(devtools) to call i
 Here are [old model files](https://www.dropbox.com/sh/af48m0jsusgr3jg/AACzBSJwujR6LU0jZBhAzys6a?dl=0) for testing. (Better to use the newer data in the [static JSON files](https://github.com/modelearth/io/tree/main/build/api)) - [Build locally](../../charts/#build)
 -->
 
-Read our [Lifecycle Tools Overview](https://model.earth//community/tools/) and contribute to our upcoming  
+Read our [Lifecycle Tools Overview](https://model.earth//community/tools/) and contribute to our  
 [SQL State Model setup](/io/about/) and [International Trade Flow SQL](/useeio.js/footprint/)
 
 ## JQuery Widgets 
 
-- [NAICS Industry List](../../localsite/info/#state=ME)
+- [NAICS Industry List](../../localsite/info/#state=ME) and [Stand-alone](../../localsite/info/naics/) - JQuery
 - [Impact Bubble Chart](bubble/) - D3 and JQuery  
 - [Sankey Chart](sankey/) - D3 with Python prep  
 <!--
@@ -59,6 +61,11 @@ If your local widgets reference the "useeio" folder, they may need to be updated
 
 ([old version](https://model.earth/eeio/build.2020.001), [pre-React](https://model.earth/eeio/build.2020.003) and [new version](useeio)) 
 -->
+
+## Embedable Map Widgets
+
+- [Simple embedded map sample](/localsite/info/embed.html#state=NY) - Leaflet and JQuery
+- [Farm Fresh Produce Map (from CSV files on GitHub)](../../localsite/map/#show=farmfresh) - Leaflet and JQuery
 
 ## React Widgets
 
@@ -82,13 +89,44 @@ The io repo includes additional code for integrating widgets.
 <!--[Developer build (thetisiboth)](https://thetisiboth.github.io/useeio-widget-builds/)  -->
 <!-- ([Recent build 1](https://msrocka.github.io/useeio-widget-builds/)) --> 
 
-## Embedable Map Widgets
+## React TO DOs
 
-- [Simple embedded map sample](/localsite/info/embed.html)
-- [Farm Fresh Produce Map (from CSV files on GitHub)](../../localsite/map/#show=farmfresh) - Leaflet and JQuery
+Also see our [Javascript with API TO DOs](/useeio.js/footprint/#reports) - bottom of page
+
+
+### TO DO: Activate checkboxes to sort using multiple impact columns
+
+Currently only the URL hash supports multiple impact sorting
+
+[The new checkbox has beed added](https://github.com/ModelEarth/useeio-widgets/blob/master/src/widgets/sector-list/sector-list.tsx) for the Sector List in useeio-widgets at 
+src -> widgets -> sector-list -> sector-list.tsx 
+
+The checkboxes have not yet been activated. See the specs below.
+
+1.) When clicking on the [Sector List](/io/build/sector_list.html?view=mosaic&count=100&indicators=ACID,ETOX,EUTR) column headers:
+
+1a. Invert the arrows, so a high impact filter is indicated by an upward arrow.
+
+1b. Add checkboxes to indicate which columns are current filters. When unchecking, retain the other selected columns. (mockup below)
+
+1c. When clicking a column title or arrow, retain the other selected columns. Their checked boxes will remain checked.
+
+The new sortable checkboxes will allow positive jobs and value-added to be compared with negative impacts.
+
+<a href="inflow-outflow/img/mockup-checkboxes.png"><img src="inflow-outflow/img/mockup-checkboxes.png" style="width:100%"></a><br>
+
 <br>
 
-# Host Widgets locally
+### TO DO: Add display of totals as default, toggle than per-dollar
+
+Total Amounts will be displayed with a toggle to Per-Dollar Spent.
+
+Add total amounts to the [Inflow-Outflow Chart](/io/charts/inflow-outflow/#set=prosperity&indicators=VADD,JOBS) and show total amounts by default. See [total amounts examples](/localsite/info/data/totals/) and our display of easy to read totals using [commodity data procesed with python](/data-pipeline/research/economy/).  Update values displayed when the hash value changes from vtype=total to vtype=perdollar and back. Use the formatCellEasy() function in localsite.js or the python version formatCell() in the data-pipeline repo.
+
+<hr><br>
+
+
+# How to Host Widgets locally
 
 The [localsite repo](../../localsite/) contains maps, navigation and data visualization charts.  
 
@@ -306,27 +344,6 @@ if you don't see it, be sure to right-click in the file folder when opening and 
 -->
 <br>
 
-# React Projects
-
-### Multi-sort for impact columns
-
-Sortable checkboxes will allow positive jobs and value-added to be compared with negative impacts. Total Amounts would be displayed, with a toggle to Per-Dollar Spent. Fanyi is working on this:
-
-1.) When clicking on the [Sector List](/io/build/sector_list.html?view=mosaic&count=100&indicators=ACID,ETOX,EUTR) column headers:
-
-1a. Invert the arrows, so a high impact filter is indicated by an upward arrow.
-
-1b. Add checkboxes to indicate which columns are current filters. When unchecking, retain the other selected columns. (mockup below)
-
-1c. When clicking a column title or arrow, retain the other selected columns. Their checked boxes will remain checked.
-
-<a href="inflow-outflow/img/mockup-checkboxes.png"><img src="inflow-outflow/img/mockup-checkboxes.png" style="width:100%"></a><br>
-
-### Display of totals rather than per-dollar
-
-2.) Add total amounts to the [Inflow-Outflow Chart](/io/charts/inflow-outflow/#set=prosperity&indicators=VADD,JOBS) and show total amounts by default. See [total amounts examples](/localsite/info/data/totals/) and our display of easy to read totals using [commodity data procesed with python](/data-pipeline/research/economy/).  Update values displayed when the hash value changes from vtype=total to vtype=perdollar and back. Use the formatCellEasy() function in localsite.js or the python version formatCell() in the data-pipeline repo.
-
-<br>
 
 # FAQs
 
