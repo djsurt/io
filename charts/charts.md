@@ -91,7 +91,7 @@ The io repo includes additional code for integrating widgets.
 
 ## React TO DOs
 
-Also see our [Javascript with API TO DOs](/useeio.js/footprint/#reports) - bottom of page
+Also see our [Javascript with API TO DOs](/useeio.js/footprint/#reports) (at the bottom of that page)
 
 
 ### TO DO: Activate checkboxes to sort using multiple impact columns
