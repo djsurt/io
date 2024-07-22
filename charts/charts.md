@@ -109,14 +109,14 @@ src -> widgets -> sector-list -> [sector-list.tsx](https://github.com/ModelEarth
 
 **New Features (in the latest modelearth/useeio-widgets build)**
 
-High impact filters are now indicated by upward arrows.
+High impact first sorts are now indicated by downward arrows.
 
 Checkboxes now indicate which columns are the current filters, allowing for multiple columns to be selected using a URL like this:
 
 http://localhost:8887/useeio-widgets/build/sector_list.html?view=mosaic#indicators=ACID,GHG,HRSP
 
-BUG: The link above should not encode the commas.
-BUG: Sometimes the arrows also appear with the link above, but not always.
+BUG: The link above should not encode the commas when loading the page.
+BUG: Sometimes the arrows appear using the link above, but not always.
 
 **TO DO**
 
