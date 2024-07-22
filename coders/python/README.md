@@ -52,7 +52,8 @@ You might also get a dialog to install xcode.
 
 	brew install python
 
-List all Python versions installed on your system. (If you get none, but `python --version` return less than 3.0, you probably need to update your OS.)
+**List all Python versions installed on your system**
+If you get none, but `python --version` return less than 3.0, you probably need to update your OS.
 
 	ls -l /usr/local/bin/python*
 
@@ -64,9 +65,10 @@ check if you are running the pyenv python environment.
 You probably won't need pyenv now that python3 is widely supported.
 If you are running pyenv, upgrade your python versions in pyenv to 3.12 or later.
 
-	pyenv install 3.12
-	pyenv global 3.12
+	pyenv install 3.11
+	pyenv global 3.11
 
+As of Jul 22, 2024 - Python 3.12 is not compatible with the OpenWebUI build.
 
 ## pip
 
