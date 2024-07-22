@@ -134,7 +134,7 @@ BUG: Sometimes the arrows appear using the link above, but not always.
 
 5.) When checking a box, show the highest level at the top with the first click. (The arrow will appear point up.)
 
-6.) Adjust the angle of the arrow to point strait up and down. Wild guess:
+6.) Adjust the angle of the arrow to point straight up and down. Wild guess:
 
 	MuiSvgIcon-root {
 		transform: translate(0px, 0px) rotate(-315deg);
