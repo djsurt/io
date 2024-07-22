@@ -93,27 +93,63 @@ The io repo includes additional code for integrating widgets.
 
 Also see our [Javascript with API TO DOs](/useeio.js/footprint/#reports) (at the bottom of that page)
 
-
 ### TO DO: Activate checkboxes to sort using multiple impact columns
 
-Currently only the URL hash supports multiple impact sorting.
+Mock up (except we'll avoid the lines around the boxes and columns):
+
+<a href="inflow-outflow/img/mockup-checkboxes.png"><img src="inflow-outflow/img/mockup-checkboxes.png" style="width:100%"></a><br>
+
+
+Previously only the URL hash supported multiple impact sorting for the [sector-list (411 total)](/io/build/sector_list.html?view=mosaic&count=411) in  useeio-widgets ([localhost link](http://localhost:8887/useeio-widgets/build/sector_list.html?view=mosaic#indicators=ACID,GHG,HRSP)).
 
 [Checkbox dev](https://github.com/ModelEarth/useeio-widgets/blob/master/src/widgets/sector-list/sector-list.tsx) (see history) for the Sector List in useeio-widgets at 
-src -> widgets -> sector-list -> sector-list.tsx 
+src -> widgets -> sector-list -> [sector-list.tsx](https://github.com/ModelEarth/useeio-widgets/commits/master/src/widgets/sector-list/sector-list.tsx)
 
 [Build our fork of the useeio-widgets repo](https://github.com/modelearth/useeio-widgets) locally to work on the new checkboxes.
 
-1.) When clicking on the [Sector List](/io/build/sector_list.html?view=mosaic&count=100&indicators=ACID,ETOX,EUTR) column headers:
+**New Features (in the latest modelearth/useeio-widgets build)**
 
-1a. Invert the arrows, so a high impact filter is indicated by an upward arrow.
+High impact filters are now indicated by upward arrows.
 
-1b. Add checkboxes to indicate which columns are current filters. When unchecking, retain the other selected columns. (mockup below)
+Checkboxes now indicate which columns are the current filters, allowing for multiple columns to be selected using a URL like this:
 
-1c. When clicking a column title or arrow, retain the other selected columns. Their checked boxes will remain checked.
+http://localhost:8887/useeio-widgets/build/sector_list.html?view=mosaic#indicators=ACID,GHG,HRSP
 
-The new sortable checkboxes will allow positive jobs and value-added to be compared with negative impacts.
+BUG: The link above should not encode the commas.
+BUG: Sometimes the arrows also appear with the link above, but not always.
 
-<a href="inflow-outflow/img/mockup-checkboxes.png"><img src="inflow-outflow/img/mockup-checkboxes.png" style="width:100%"></a><br>
+**TO DO**
+
+1.) Move the checkbox directly above the column (Then they won't have a 315 degree pivot.)
+
+2.) Put the arrow inside the same a href tag as the title. (Then you won't need to add an action on the arrow itself.)
+
+3.) Remove the underline on the title with:
+
+	indicator a:hover{
+	    text-decoration: none !important;
+	}
+
+4.) When unchecking, retain the other selected columns.
+
+5.) When checking a box, show the highest level at the top with the first click. (The arrow will appear point up.)
+
+6.) Adjust the angle of the arrow to point strait up and down. Wild guess:
+
+	MuiSvgIcon-root {
+		transform: translate(0px, 0px) rotate(-315deg);
+	}
+
+7.) Avoid encoding the commas in the URL #indicators=ACID,GHG,HRSP value. Figure out why the arrows are not always visible when refreshing.
+
+8.) The new sortable checkboxes will allow impactful Jobs Supported (JOB) and Value-Added (VADD) positives to be compared with "low" impacts for other indicators.
+
+9.) When the arrows point upward, populate a "low" hash value like this:
+
+	#indicators=JOBS,VADD&low=ACID,GHG
+
+The above would indicate: Lots of Jobs and Value Added, with low levels of negative impacts from Acid Rain and Green House Gases.
+
 
 <br>
 

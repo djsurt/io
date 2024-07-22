@@ -11,21 +11,11 @@
 
 View our [Product YAML notes](../product/) for steps on using Postman.  
 
-## To try with BuildingTransparency.org
-
-The follow technique is used in the [useeio.js](https://github.com/modelearth/useeio.js) repo to download an API to json files.
-
-Try adding an API key to dumpjson-bldg-transparency.js or try appending here.
-Note that API keys expire every 3 days. [Get a BuildingTransparency.org key].
-
-```
-$ node scripts/dumpjson-bldg-transparency.js --endpoint https://openepd.buildingtransparency.org/api/epds?page_number=1&page_size=10
-```
 
 
 ## Display Footprints from Static Files
 
-Check out how faster the EPD product list displays when <a href="../../../community/resources/diffbot/#feed=epd">loaded from a static json file</a>. 
+Check out how much faster the EPD product list displays when <a href="../../../community/resources/diffbot/#feed=epd">loaded from a static json file</a>. 
 
 <!--
 <a href="../../products/#show=openepd">View Feed on Map</a> (allow 8 seconds) - also now 401 (Unauthorized) 
@@ -49,7 +39,7 @@ Paste the bearer token and run from a console:
 We recomend saving your own private desktop swagger file with your API commands. Coordinate updates with Loren.
 -->
 
-<b>TO DO:</b> Modify the API URL used in this page to return only the interesting fields, including the company and product names. Add a toggle to load all values.
+<b>TO DO:</b> Modify the API URL used in this page to return fields displayed in online footprint profiles (to be determined), including the company and product names. Add a toggle to load all values.
 
 <!--
 Phil wrote: Soft search terms is a feature where we *delete* search terms if there are zero returns.  It's not really what you want in an API. 
