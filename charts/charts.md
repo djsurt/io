@@ -142,15 +142,13 @@ BUG: Sometimes the arrows also appear with the link above, but not always.
 
 7.) Avoid encoding the commas in the URL #indicators=ACID,GHG,HRSP value. Figure out why the arrows are not always visible when refreshing.
 
-8.) The new sortable checkboxes will allow impactful Jobs Supported (JOB) and Value-Added (VADD) positives to be compared with "low" impacts for other indicators.
-
-9.) When the arrows point upward, populate a "low" hash value like this:
+8.) The new sortable checkboxes will allow impactful Jobs Supported (JOB) and Value-Added (VADD) positives to be compared with "low" impacts for other indicators. When the arrows point upward, populate a "low" hash value like this:
 
 	#indicators=JOBS,VADD&low=ACID,GHG
 
 The above would indicate: Lots of Jobs and Value Added, with low levels of negative impacts from Acid Rain and Green House Gases.
 
-10.) Increase the maximum count to 500 so all 411 industries can be viewed.
+9.) Increase the maximum count to 411 so all the industries can be viewed.
 
 <br>
 
