@@ -150,6 +150,7 @@ BUG: Sometimes the arrows also appear with the link above, but not always.
 
 The above would indicate: Lots of Jobs and Value Added, with low levels of negative impacts from Acid Rain and Green House Gases.
 
+10.) Increase the maximum count to 500 so all 411 industries can be viewed.
 
 <br>
 
