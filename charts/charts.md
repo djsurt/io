@@ -73,7 +73,7 @@ If your local widgets reference the "useeio" folder, they may need to be updated
 The React widgets in the [io repo](https://github.com/modelearth/io/) originate from the EPA's [USEEIO-widgets repo](https://github.com/USEPA/useeio-widgets/).   
 Note: EPA downgraded reactjs from ^18.2.0 to ^17.0.2 to solve compability issue with MAC. (Jan 2024)
 
-[The build folder](../build) is copied from USEEIO-widgets into the [io repo](https://github.com/modelearth/io/) to provide a static copy of the API's json files.  
+[The build folder](../build) is copied from useeio-widgets into the [io repo](https://github.com/modelearth/io/) to provide a static copy of the API's json files.  
 The io repo includes additional code for integrating widgets.
 
 - [Inflow-Outflow Chart](inflow-outflow/#set=prosperity&indicators=VADD,JOBS) - [Tires](inflow-outflow/#sectors=326210&set=prosperity&indicators=JOBS,VADD) - (<a href="../build/iochart.html#indicators=ENRG,GHG,VADD&sectors=113000,327310,327400,333613,335912,336111,562111,562212">Widget only</a>)<!-- &page=1&count=10 --><!-- [imfast.io](https://useeiowidgets.imfast.io/iochart.html#sectors=322130,325520,327910,541200)-->  
@@ -232,7 +232,7 @@ Or use <code>cd useeio-widgets</code> if you are just using the source repo.
 
 #### Install Node.js node_modules  
 
-The following will add a node_modules folder containing javascript source libraries (dependencies) that will be used to output code for the widgets.  `npm ci` is an alternative to `npm install` which avoid modifying the . [Learn more](https://stackoverflow.com/questions/48524417/should-the-package-lock-json-file-be-added-to-gitignore)
+The following will add a node_modules folder containing javascript source libraries (dependencies) that will be used to output code for the widgets.  `npm ci` is an alternative to `npm install` which avoids modifying the package.lock.json file. [Learn more](https://stackoverflow.com/questions/48524417/should-the-package-lock-json-file-be-added-to-gitignore)
 
 	cd useeio-widgets &&
 	npm ci
@@ -307,6 +307,25 @@ npm run dev
 ```
 <br>
 
+
+### View your Edits
+
+Use the up-arrow to run the build line after making a change.  
+
+	npm run build
+
+Learn more in the VS Code [Node.js Tutorial](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial). 
+<br>
+
+
+
+<span class="local-block" style="display:none;">
+<hr><br>
+<h1>API Key (should not be needed)</h1>
+The production API requires an API key which we store in a [private Google Doc](https://docs.google.com/document/d/1FsIATg3XS-ZlyrNabZBIR9mdhSTWv22-yp0ZCyF80rg/edit?pli=1)
+<br><hr>
+</span>
+
 <!--
 You can skip this step. We've already populated the **io/build/api folder** for you.
 
@@ -323,9 +342,7 @@ This one include 5 state files and will soon include all 50.
 Running the above mirrors API data into the static json files in the `build/api` folder. 
 
 You may optionally [request the key](https://github.com/USEPA/USEEIO_API/wiki/Use-the-API) to the production API to run the following (Interns may use the key in our Google Doc).
-<span class="local-block" style="display:none;">
-The production API requires an API key which we store in a [private Google Doc](https://docs.google.com/document/d/1FsIATg3XS-ZlyrNabZBIR9mdhSTWv22-yp0ZCyF80rg/edit?pli=1)
-</span>
+
 
 As of March 2024, this one does not yet contain any state folders, nor the GHG folder.
 ```
@@ -336,15 +353,6 @@ Replace USEEIOv2.0.1-411 in the "io" repo if a newer version is generated.
 Learn more about [using the USEEIO API](https://github.com/USEPA/USEEIO_API/wiki/Use-the-API)
 -->
 
-
-### View your Edits
-
-Use the up-arrow to run the build line after making a change.  
-
-	npm run build
-
-Learn more in the VS Code [Node.js Tutorial](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial). 
-<br>
 
 # Contribute Updates
 
