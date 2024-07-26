@@ -103,6 +103,8 @@ You can also view in your webroot with other repos if you use our [server setup 
 
 The JSON files have been pre-generated for you using the JSON dump cmd in the [useeio.js repo](https://github.com/modelearth/useeio.js/). The JSON dump cmd requires requesting an API key from the US EPA, but you won't need to if you've copied the io/build/api folder.
 
+Data for all 50 states - You can also develop with [USEEIO data from all 50 states](https://github.com/ModelEarth/OpenFootprint/tree/main/impacts/2020).  
+Changes to the data structure may require modifying the widget React code.
 
 ## Run npm build to view your edits
 
@@ -171,3 +173,9 @@ Replace USEEIOv2.0.1-411 in the "io" repo if a newer version is generated.
 
 Learn more about [using the USEEIO API](https://github.com/USEPA/USEEIO_API/wiki/Use-the-API)
 -->
+<br>
+
+**Data for all 50 states**
+You can develop with [USEEIO data from all 50 states](https://github.com/ModelEarth/OpenFootprint/tree/main/impacts/2020).   
+Changes to the data structure may require modifying the chart React code.
+
