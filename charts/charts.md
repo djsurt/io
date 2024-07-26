@@ -210,7 +210,7 @@ The `.editorconfig` file contains the formatting settings. Modern editors have p
 
 ## Contribute Updates
 
-To work with us on updates, fork the [model.earth fork of useeio-widgets](https://github.com/modelearth/useeio-widgets/) and [build locally](react)
+To work with us on USEEIO React widget updates, fork the [model.earth fork of useeio-widgets](https://github.com/modelearth/useeio-widgets/) and [build locally](react)
 
 Edit the React files that reside in useeio-widgets/src.
 Files in useeio-widgets/build are overwritten when you run the build.

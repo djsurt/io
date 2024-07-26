@@ -115,7 +115,7 @@ npm run build
 
 This will create or update the `build` folder and a `lib` sub-folder containing small JavaScript libraries used by the USEEIO widgets.  
 
-The build folder contains [example HTML files](../../build/) demonstrating usage of the widgets, but you'll need the API files too...
+The "build" folder contains [example HTML files](../../build/) demonstrating usage of the widgets. It uses a json copy of the API placed in build/api.
 
 <!--
 Note: After building, remove   a { color: #555; } in widget.css.
