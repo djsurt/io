@@ -210,7 +210,7 @@ The `.editorconfig` file contains the formatting settings. Modern editors have p
 
 ## Contribute Updates
 
-To work with us on updates, fork the [model.earth fork of useeio-widgets](https://github.com/modelearth/useeio-widgets/)
+To work with us on updates, fork the [model.earth fork of useeio-widgets](https://github.com/modelearth/useeio-widgets/) and [build locally](react)
 
 Edit the React files that reside in useeio-widgets/src.
 Files in useeio-widgets/build are overwritten when you run the build.
@@ -239,7 +239,6 @@ if you don't see it, be sure to right-click in the file folder when opening and 
 3. insert this at the end of the line, before the end-quote: :$HOME/.local/bin
 
 -->
-<br>
 
 
 [Active Projects](/projects/) and [How to Build USEEIO-Widgets locally](react)
