@@ -22,9 +22,13 @@ Run these in the useeio-widgets folder rather than the parent webroot:
 	npm ci
 	npm run server
 
-Then start a new terminal, also in the useeio-widgets folder and run:
+Copy json files from [io repo](https://github.com/ModelEarth/io/tree/main/build/api) and place in useeio-widgets/build/api. (More info below)
+
+Then start a new terminal, also in the useeio-widgets folder and run: (Takes 30 seconds)
 
 	npm run build
+
+View at: [http://localhost:8080](http://localhost:8080)
 
 Optionally run this command in your webroot (the folder containing useeio-widgets):
 
