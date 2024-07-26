@@ -15,6 +15,28 @@ If you are collaborating through model.earth on updates, fork and clone [modelea
 
 You'll need a current version of [Node.js](https://nodejs.org) installed. View our [node and python install notes](/io/coders/python/)
 
+## Quick Steps
+
+Run these in the useeio-widgets folder rather than the parent webroot:
+
+	npm ci
+	npm run server
+
+Then start a new terminal, also in the useeio-widgets folder and run:
+
+	npm run build
+
+Optionally run this command in your webroot (the folder containing useeio-widgets):
+
+	python -m http.server 8887
+
+Then these should work too:
+
+[http://localhost:8887/localsite](http://localhost:8887/localsite)
+[http://localhost:8887/useeio-widgets/build](http://localhost:8887/useeio-widgets/build)
+
+Detailed steps...
+
 ## Open Terminal or VS Code
 
 #### Right-click on useeio-widgets folder and open a terminal    
