@@ -122,7 +122,7 @@ http://localhost:8887/useeio-widgets/build/sector_list.html?view=mosaic#indicato
 BUG: The link above should not encode the commas when loading the page.
 BUG: Sometimes the arrows appear using the link above, but not always.
 
-**TO DO**
+**TO DO** - Pallavi is working on the following
 
 1.) Move the checkbox directly above the column (Then they won't have a 315 degree pivot.)
 
