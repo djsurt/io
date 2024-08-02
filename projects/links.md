@@ -11,7 +11,7 @@
 
 ## Volunteer Developers
 
-Our volunteer teams create job and manufacturing reports, business/product directories, regional supply chain visualizations, energy use, air and water quality apps, and land use reports using data from the following:
+Our volunteer teams contribute to data visualizations, directories, supply chain reports on topics like energy use, air and water quality, land use, and job creation using data from the following:
 
 ✪ US Bureau of Economic Analysis (BEA)  
 ✪ US Bureau of Labor Statistics (BLS)  

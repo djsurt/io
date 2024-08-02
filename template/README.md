@@ -1,6 +1,9 @@
-[API YAML to JSON and HTML](parser/) - [Product Label Sample](parser/sample.html)
+<h1 class="h1-home">Open Footprint Builder</h1>
+#### Environmental Impact Profiles for Communities, Companies and Individuals
+
+[API YAML to JSON and HTML](parser/) and [Product Label Sample](parser/sample.html)
 [Select states and counties](#geoview=country) to explore local industry impacts
-[Product Comparisons](/OpenFootprint/products/) - Building Transparency
+[Product Comparisons](/OpenFootprint/products/) and [Building Transparency API](/io/template/feed/)
 
 ---
 <br>
