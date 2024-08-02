@@ -99,26 +99,53 @@ Type `echo $PATH` to verify.
 
 ## Conda
 
+View a list of your conda environments.
+If none are found, [download from Anaconda.com](https://www.anaconda.com/download) - then open by clicking the app.
+
+	conda env list  
+
+You can delete any unnecessary ones with `conda remove --name [ENV_NAME] --all`  
+How do we know which are unnecessary?
+
 You can try using a cmd to upgrade, but you may need to download.
 
 	conda update -n base -c defaults conda
 
-[Download Anaconda](https://www.anaconda.com/download)
+
 
 To open, run in folder containing the .ipynb file(s).
 
 	jupyter notebook
 
-View a list of your conda environments.
-And then delete the unnecessary ones with `conda remove --name [ENV_NAME] --all`
 
-	conda env list  
 
 ## Docker
 
 On a Mac, if the `docker` cmd is not recognized, add the path `$HOME/.docker/bin` in the config file corresponding to your command terminal instance:  In the **Users\\[username]** folder, edit one of these hidden files: .zshrc, .bash_profile, .bashrc or .profile.
 
 If you're transitioning from an old instance of [Docker](https://www.docker.com/products/docker-desktop/), you may need to reinstall or do a Docker reboot.
+
+
+<!--
+My machine has four found:
+
+/Users/X/opt/anaconda3
+/Users/X/opt/anaconda3/envs/myenv
+base  *  /opt/anaconda3
+myenv    /opt/anaconda3/envs/myenv
+
+
+
+I ran the new install script in the root of the projects folder with no addition venv
+bash location/setup/script/start.sh
+
+After about 8 minutes, it got to the backend install and returned a line 20 error:
+
+/etc/profile.d/conda.sh: No such file or directory
+
+-->
+
+
 
 <!--
 Probably not needed:
