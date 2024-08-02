@@ -100,23 +100,23 @@ Type `echo $PATH` to verify.
 ## Conda
 
 View a list of your conda environments.
-If none are found, [download from Anaconda.com](https://www.anaconda.com/download) - then open by clicking the app.
+If none are found, [download from Anaconda.com](https://www.anaconda.com/download) - Open by clicking the Anaconda app. Reopen your terminals.
 
 	conda env list  
 
-You can delete any unnecessary ones with `conda remove --name [ENV_NAME] --all`  
-How do we know which are unnecessary?
+A new install places at:
+base * /opt/anaconda3
 
-You can try using a cmd to upgrade, but you may need to download.
+You can delete any unnecessary ones with `conda remove --name [ENV_NAME] --all`  
+
+You can click your Anaconda app to upgrade, then reopen your terminals.
+Or you can try using a cmd to upgrade, but you may need to download.
 
 	conda update -n base -c defaults conda
-
-
 
 To open, run in folder containing the .ipynb file(s).
 
 	jupyter notebook
-
 
 
 ## Docker
