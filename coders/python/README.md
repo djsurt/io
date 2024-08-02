@@ -10,7 +10,8 @@ Check your versions. nvm optional.
 [npmjs.com](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) recommends installing the Node Version Manager [nvm](https://github.com/nvm-sh/nvm) to avoid permission errors when you run npm packages globally.  
 Run `nvm ls` to see all the node versions you have installed. Update nvm to set your version of node:
 
-**To install nvm** Use the [curl command to install nvm](https://github.com/nvm-sh/nvm). Then run the export command below it. Restart your terminal.
+**To install nvm** Use the [curl command to install nvm](https://github.com/nvm-sh/nvm).  Then run the export command below it. Restart your terminal.  
+One a Mac since OS X 10.9, first run `touch ~/.zshrc`.
 
 **Set your node version to v20**
 
@@ -48,7 +49,8 @@ Only python3 was available after running `brew install python` after upgrading t
 	The above returned 2.7.16 on older mac which had Big Sur. Upgraded to Sonoma.
 -->
 
-Install the latest Python. 
+If your python versionn is 3.10 or older, you may want to install the latest Python.
+(3.11 is currently better than 3.12 for ) 
 If you don't have brew yet, [download the .pkg installer](https://brew.sh).
 You might also get a dialog to install xcode.
 
