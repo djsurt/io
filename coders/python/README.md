@@ -109,6 +109,11 @@ To open, run in folder containing the .ipynb file(s).
 
 	jupyter notebook
 
+View a list of your conda environments.
+And then delete the unnecessary ones with `conda remove --name [ENV_NAME] --all`
+
+	conda env list  
+
 ## Docker
 
 On a Mac, if the `docker` cmd is not recognized, add the path `$HOME/.docker/bin` in the config file corresponding to your command terminal instance:  In the **Users\\[username]** folder, edit one of these hidden files: .zshrc, .bash_profile, .bashrc or .profile.
