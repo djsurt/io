@@ -27,7 +27,7 @@ To installing node if the version commands find nothing:
 
 Or [Install node/npm](https://nodejs.org/en/download) locally. The installer includes the Node.js package manager (npm) within it, so you won't need to install npm separately.
 
-Or directly update to the latest stable version of NodeJS if you are not using nvm. (Otherwise skip this.)
+If you aren't using nvm, directly update to the latest stable version of NodeJS (Otherwise skip this.)
 <!-- https://askubuntu.com/questions/426750/how-can-i-update-my-nodejs-to-the-latest-version-->
 
 	npm install -g n &&
