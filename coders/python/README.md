@@ -8,14 +8,16 @@ Check your versions. nvm optional.
 	npm -v
 
 [npmjs.com](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) recommends installing the Node Version Manager [nvm](https://github.com/nvm-sh/nvm) to avoid permission errors when you run npm packages globally.  
-Run `nvm ls` to see all the node versions you have installed. Update nvm and install the latest version of node:
+Run `nvm ls` to see all the node versions you have installed. Update nvm to set your version of node:
 
 **To install nvm** Use the [curl command to install nvm](https://github.com/nvm-sh/nvm). Then run the export command below it. Restart your terminal.
+
+**Set your node version to v20**
 
 	nvm install 20.14.0
 	nvm use 20.14.0
 
-We're avoiding node v22 because it has a [punycode error](https://stackoverflow.com/questions/68774489/punycode-is-deprecated-in-npm-what-should-i-replace-it-with) in data-commons build.  Run this BEFORE invoking a virtual environment.
+We're avoiding node v22 because it has a [punycode error](https://stackoverflow.com/questions/68774489/punycode-is-deprecated-in-npm-what-should-i-replace-it-with) in data-commons build.  Run the above BEFORE invoking a virtual environment.
 
 <!--
 To installing node if the version commands find nothing:
@@ -25,9 +27,9 @@ To installing node if the version commands find nothing:
 	nvm alias default node
 -->
 
-Or [Install node/npm](https://nodejs.org/en/download) locally. The installer includes the Node.js package manager (npm) within it, so you won't need to install npm separately.
-
-If you aren't using nvm, directly update to the latest stable version of NodeJS (Otherwise skip this.)
+**If you're not using Node Version Manager (nvm)** (above)
+You can [install node/npm directly](https://nodejs.org/en/download). The installer includes the Node.js package manager (npm) within it, so you won't need to install npm separately.  
+Skip this if you are using nvm (above). This directly updates your machine to the latest stable version of NodeJS.
 <!-- https://askubuntu.com/questions/426750/how-can-i-update-my-nodejs-to-the-latest-version-->
 
 	npm install -g n &&
