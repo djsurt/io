@@ -15,9 +15,9 @@ ClimateTech Handbook - actions to take to address climate change
 
 <!--
 
-# Earthathon 2024
+# Earthathon
 ### Online with DemocracyLab
-#### Saturday, April 20, 2024
+#### Saturday, April , 202
 **Noon to 8 PM EDT East Coast<br>9 AM to 5 PM PDT West Coast**
 
 [Join our Google Meetup](https://meet.google.com/pcv-xrdh-bat) - We'll touchbase every two hours for 30+ minutes at Noon, 2pm, 4pm, 6pm, and then wrap-up with other teams from 7pm to 8pm EDT.
@@ -69,17 +69,17 @@ View our [Active Projects](../../projects/) and find your areas of interest.
 **<span class="blinking">NOTICE</span>** This week (May 9, 2024) our Thursday meeting will 10 AM EDT
 -->
 
-Join us in our [Google Meetups](https://meet.google.com/pcv-xrdh-bat) (Eastern Time, NY and Atlanta)
+Join us in our [Google Meetup](https://meet.google.com/pcv-xrdh-bat) (Eastern Time, NY and Atlanta)
 <!-- Moonshot Mondays, 10 PM EDT - [UN Goals](/data-commons/dist/), [Lunar Olympics AI](/projects/)-->
 
-**[Wednesday @ Noon EDT](https://meet.google.com/pcv-xrdh-bat)** 
-[Project overviews](/projects/), [Open WebUI](/projects/src/), [EarthScape LLMs](/earthscape/)
+**Wednesday @ 11 AM EDT** 
+[Project overviews](/projects/), [Python with LLM APIs](/projects/src/), [EarthScape NextJS](/earthscape/app/)
 
-**[Friday @ 5 PM EDT](https://meet.google.com/pcv-xrdh-bat)**
-SQL with [international trade data](/useeio.js/footprint/)
+**Friday @ 6 PM EDT**
+[SQL with international trade data](/useeio.js/footprint/)
 
-**[Sunday @ 10 PM EDT](https://meet.google.com/pcv-xrdh-bat)**
-[RealityStream](/RealityStream/), [React FeedPlayer](/feed/), [Timelines and Python Pipeline](/data-pipeline/timelines/)
+**Sunday @ 10 PM EDT**
+[RealityStream ML](/RealityStream/), [React FeedPlayer](/feed/dist/), [International Trade](/useeio.js/footprint/) and [Python Pipeline](/data-pipeline/timelines/)
 
 <!--
 - [Other evenings plus Monday and Tuesday afternoons](https://meet.google.com/pcv-xrdh-bat)-->
