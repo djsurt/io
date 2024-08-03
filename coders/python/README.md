@@ -101,7 +101,7 @@ You can try using a cmd to upgrade, but you may need to download.
 
 [Download Anaconda](https://www.anaconda.com/download)
 
-To open, run in folder containing the .ipynb file(s).
+To open, run in the folder containing the .ipynb files you're editing.
 
 	jupyter notebook
 
