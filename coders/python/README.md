@@ -8,14 +8,17 @@ Check your versions. nvm optional.
 	npm -v
 
 [npmjs.com](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) recommends installing the Node Version Manager [nvm](https://github.com/nvm-sh/nvm) to avoid permission errors when you run npm packages globally.  
-Run `nvm ls` to see all the node versions you have installed. Update nvm and install the latest version of node:
+Run `nvm ls` to see all the node versions you have installed. Update nvm to set your version of node:
 
-**To install nvm** Use the [curl command to install nvm](https://github.com/nvm-sh/nvm). Then run the export command below it. Restart your terminal.
+**To install nvm** Use the [curl command to install nvm](https://github.com/nvm-sh/nvm).  Then run the export command below it. Restart your terminal.  
+One a Mac since OS X 10.9, first run `touch ~/.zshrc`.
+
+**Set your node version to v20**
 
 	nvm install 20.14.0
 	nvm use 20.14.0
 
-We're avoiding node v22 because it has a [punycode error](https://stackoverflow.com/questions/68774489/punycode-is-deprecated-in-npm-what-should-i-replace-it-with) in data-commons build.  Run this BEFORE invoking a virtual environment.
+We're avoiding node v22 because it has a [punycode error](https://stackoverflow.com/questions/68774489/punycode-is-deprecated-in-npm-what-should-i-replace-it-with) in data-commons build.  Run the above BEFORE invoking a virtual environment.
 
 <!--
 To installing node if the version commands find nothing:
@@ -25,9 +28,9 @@ To installing node if the version commands find nothing:
 	nvm alias default node
 -->
 
-Or [Install node/npm](https://nodejs.org/en/download) locally. The installer includes the Node.js package manager (npm) within it, so you won't need to install npm separately.
-
-If you aren't using nvm, directly update to the latest stable version of NodeJS (Otherwise skip this.)
+**If you're not using Node Version Manager (nvm)** (above)
+You can [install node/npm directly](https://nodejs.org/en/download). The installer includes the Node.js package manager (npm) within it, so you won't need to install npm separately.  
+Skip this if you are using nvm (above). This directly updates your machine to the latest stable version of NodeJS.
 <!-- https://askubuntu.com/questions/426750/how-can-i-update-my-nodejs-to-the-latest-version-->
 
 	npm install -g n &&
@@ -46,7 +49,8 @@ Only python3 was available after running `brew install python` after upgrading t
 	The above returned 2.7.16 on older mac which had Big Sur. Upgraded to Sonoma.
 -->
 
-Install the latest Python. 
+If your python versionn is 3.10 or older, you may want to install the latest Python.
+(3.11 is currently better than 3.12 for ) 
 If you don't have brew yet, [download the .pkg installer](https://brew.sh).
 You might also get a dialog to install xcode.
 
@@ -95,7 +99,18 @@ Type `echo $PATH` to verify.
 
 ## Conda
 
-You can try using a cmd to upgrade, but you may need to download.
+View a list of your conda environments.
+If none are found, [download from Anaconda.com](https://www.anaconda.com/download) - Open by clicking the Anaconda app. Reopen your terminals.
+
+	conda env list  
+
+A new install places at:
+base * /opt/anaconda3
+
+You can delete any unnecessary ones with `conda remove --name [ENV_NAME] --all`  
+
+You can click your Anaconda app to upgrade, then reopen your terminals.
+Or you can try using a cmd to upgrade, but you may need to download.
 
 	conda update -n base -c defaults conda
 
@@ -105,11 +120,34 @@ To open, run in the folder containing the .ipynb files you're editing.
 
 	jupyter notebook
 
+
 ## Docker
 
 On a Mac, if the `docker` cmd is not recognized, add the path `$HOME/.docker/bin` in the config file corresponding to your command terminal instance:  In the **Users\\[username]** folder, edit one of these hidden files: .zshrc, .bash_profile, .bashrc or .profile.
 
 If you're transitioning from an old instance of [Docker](https://www.docker.com/products/docker-desktop/), you may need to reinstall or do a Docker reboot.
+
+
+<!--
+My machine has four found:
+
+/Users/X/opt/anaconda3
+/Users/X/opt/anaconda3/envs/myenv
+base  *  /opt/anaconda3
+myenv    /opt/anaconda3/envs/myenv
+
+
+
+I ran the new install script in the root of the projects folder with no addition venv
+bash location/setup/script/start.sh
+
+After about 8 minutes, it got to the backend install and returned a line 20 error:
+
+/etc/profile.d/conda.sh: No such file or directory
+
+-->
+
+
 
 <!--
 Probably not needed:
