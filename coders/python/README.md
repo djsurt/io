@@ -123,10 +123,34 @@ To open, run in the folder containing the .ipynb files you're editing.
 
 ## Docker
 
-On a Mac, if the `docker` cmd is not recognized, add the path `$HOME/.docker/bin` in the config file corresponding to your command terminal instance:  In the **Users\\[username]** folder, edit one of these hidden files: .zshrc, .bash_profile, .bashrc or .profile.
+[Docker download](https://www.docker.com) - Install and you'll see an elephant icon
 
-If you're transitioning from an old instance of [Docker](https://www.docker.com/products/docker-desktop/), you may need to reinstall or do a Docker reboot.
+If the docker cmd is not recognized after installing Docker on a Mac, Create a symbolic link. Then confirm with `docker --version`
 
+	sudo ln -s /Applications/Docker.app/Contents/Resources/bin/docker /usr/local/bin/docker
+
+<!--
+On a Mac, if the `docker` cmd is not recognized, go to your **Users\\[username]** folder and edit one of these hidden files corresponding to your command terminal instance: .zshrc, .bash_profile, .bashrc or .profile. Add the path `$HOME/.docker/bin` with these:
+
+	export PATH="/usr/local/bin:$PATH"
+	export PATH="$HOME/.docker/bin:$PATH"
+-->
+
+If you're transitioning from an old instance of [Docker](https://www.docker.com), you may need to reinstall or do a Docker reboot.
+
+<!--
+	docker --version
+	docker which
+
+
+Removed these from end of .zshrc
+First maybe from ChatGPT.
+
+export PATH="/usr/local/bin:$PATH"
+export PATH="$HOME/.docker/bin:$PATH"
+
+export PATH="$HOME/.docker/bin:$PATH"
+-->
 
 <!--
 My machine has four found:

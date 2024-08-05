@@ -78,7 +78,7 @@ Join us in our [Google Meetup](https://meet.google.com/pcv-xrdh-bat) (Eastern Ti
 **Friday @ 6 PM EDT**
 [SQL with international trade data](/useeio.js/footprint/)
 
-**Sunday @ 10 PM EDT**
+**Sunday @ 11 PM EDT**
 [RealityStream ML](/RealityStream/), [React FeedPlayer](/feed/dist/), [International Trade](/useeio.js/footprint/) and [Python Pipeline](/data-pipeline/timelines/)
 
 <!--
