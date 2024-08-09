@@ -15,13 +15,14 @@ Learn about [the USEEIO API](api/)-->
 - Spring 2020: [Developed app concepts](../../io/projects/), [on-boarded communities](../../io/communities/)
 - Summer 2020: [Modeling and component development](../../localsite/info/)
 - Fall 2020: [Develop prototype applications](../../apps/)
-- Spring 2021: [Electric Vehicle Ecosystem](../../community/projects/mobility/), [Coastal Recycling Activated Carbon Feedstocks](../../apps/coastal/)
+- Spring 2021: [Electric Vehicle Ecosystem](../../community/projects/mobility/), [Coastal Recycling](../../apps/coastal/)<!-- Activated Carbon Feedstocks -->
 - Summer 2021: [Machine Learning for Industry Imputation](../../localsite/info/data/)
 - Fall 2021: [Sustainable Communities Web Challenge](../../community/challenge/)
 - Spring 2022: [Environmental Impact Profiles](../../io/template/)
 - Fall 2022: [B2B Recycling Directory](../../localsite/map/#show=recyclers&state=GA)
-- 2023: Updates to [Data Pipeline](https://model.earth/data-pipeline/)
-- 2024: Additions to [Community Data](https://model.earth/community-data/) for industry timelines
+- Winter 2023: Updates to [Data Pipeline for Counties](https://model.earth/data-pipeline/)
+- Spring 2024: Additions to [Community Data for Timelines](https://model.earth/community-data/)
+- Summer 2024: Exiobase [International Trade SQL tables](https://model.earth/useeio.js/footprint/)
 <br>
 
 [USEEIO Versions](https://www.epa.gov/land-research/us-environmentally-extended-input-output-useeio-technical-content) - [Volunteer Projects](../../io/projects/) - [Starter Samples](../../localsite/start/)  
