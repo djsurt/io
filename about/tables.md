@@ -5,8 +5,12 @@ Table names are Row\_Column from [matrix tables](matrix/).
 Source json data: [2020 US States](https://github.com/ModelEarth/OpenFootprint/tree/main/impacts/2020) - [CoLab](https://colab.research.google.com/drive/1CYKNTnLiZ_PbP5WS_dMVtYyYDIAFwzq8?usp=sharing)
 Also see our [International Trade SQL](/useeio.js/footprint/)
 
-See .yaml for [converting Matrix to SQL Tables](https://github.com/ModelEarth/OpenFootprint/blob/main/impacts/useeio/create-database-useeio.yaml)  
-Make a copy of [supabase-db-loader2.py](https://github.com/ModelEarth/OpenFootprint/tree/main/prep/sql/supabase) and add .json support
+TO DO:
+add .json support to [supabase-db-loader2.py](https://github.com/ModelEarth/OpenFootprint/tree/main/prep/sql/supabase) and  
+also load [create-database-useeio.yaml](https://github.com/ModelEarth/OpenFootprint/blob/main/impacts/useeio/create-database-useeio.yaml)  
+
+TO DO:
+Create a loop that generates state DuckDB files.
 
 | Table Name | Source |
 | ----------- | ----------- |
