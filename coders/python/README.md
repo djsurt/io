@@ -47,10 +47,20 @@ Only python3 was available after running `brew install python` after upgrading t
 
 <!--
 	The above returned 2.7.16 on older mac which had Big Sur. Upgraded to Sonoma.
+
+
+# no effect, remove
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
+source ~/.bashrc  # or source ~/.zshrc
 -->
 
-If your python versionn is 3.10 or older, you may want to install the latest Python.
-(3.11 is currently better than 3.12 for ) 
+If your python versionn is 3.10 or older, you may want to upgrade Python to 3.11.
+(3.11 is currently better than 3.12 for the OpenWebUI build as of as of Jul 22, 2024.)
+
 If you don't have brew yet, [download the .pkg installer](https://brew.sh).
 You might also get a dialog to install xcode.
 
@@ -67,7 +77,7 @@ check if you are running the pyenv python environment.
 	pyenv --version
 
 You probably won't need pyenv now that python3 is widely supported.
-If you are running pyenv, upgrade your python versions in pyenv to 3.12 or later.
+If you are running pyenv, upgrade your python versions in pyenv to 3.11.
 
 	pyenv install 3.11
 	pyenv global 3.11
