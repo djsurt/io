@@ -1,5 +1,18 @@
 # Node, Python and Conda Notes
 
+## Start a Virtual Environment 
+
+If you don't use a virtualenv, there's a chance you could break part of your OS.
+
+	python3 -m venv env
+	source env/bin/activate
+
+For Windows,
+
+	python3 -m venv env
+	.\env\Scripts\activate
+
+
 ## Node and npm
 
 Check your versions. nvm optional.
