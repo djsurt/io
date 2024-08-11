@@ -13,6 +13,12 @@ For Windows,
 	.\env\Scripts\activate
 
 
+<!--
+If pip install doesn't run, and you see (base), then deactivate the conda base environment:
+
+	conda deactivate
+-->
+
 ## Node and npm
 
 Check your versions. nvm optional.
@@ -71,46 +77,69 @@ eval "$(pyenv virtualenv-init -)"
 source ~/.bashrc  # or source ~/.zshrc
 -->
 
-If your python versionn is 3.10 or older, you may want to upgrade Python to 3.11.
-(3.11 is currently better than 3.12 for the OpenWebUI build as of as of Jul 22, 2024.)
+If your python version is older, you may want to upgrade Python to 3.10 or 3.11.  
+3.10 is needed for the Nature journal Exiobase download for Sankey.  
+3.11 is currently used for the OpenWebUI build as of as of Jul 22, 2024.
+3.12 does not work for the two above, use pyenv.
 
 If you don't have brew yet, [download the .pkg installer](https://brew.sh).
 You might also get a dialog to install xcode.
 
 	brew install python
 
+## pyenv
+
 **List all Python versions installed on your system**
-If you get none, but `python --version` return less than 3.0, you probably need to update your OS.
+If you get none, but `python --version` return less than 3.0, you probably need to update your OS. Check if you have pyenv installed: `pyenv --version`
 
 	ls -l /usr/local/bin/python*
 
-If an old version of python is still appearing as the current version,
-check if you are running the pyenv python environment.
 
-	pyenv --version
+Sample of running python 3.10 for exiobase sankey:
 
-You probably won't need pyenv now that python3 is widely supported.
-If you are running pyenv, upgrade your python versions in pyenv to 3.11.
+	pyenv install 3.10  # Skip if you've already installed
+	pyenv local 3.10
+	python3.10 -m venv env  # Before re-running, delete the existing env folder, or skip this line and reuse the env folder.
+	source env/bin/activate  # On Windows .\env\Scripts\activate
+	python --version
 
-	pyenv install 3.11
-	pyenv global 3.11
+Even in a virtual environment, pyenv global will update your machine.
+For OpenWebUI you can use the technique above for Python 3.11
+Python 3.12 was not compatible with the OpenWebUI build Jul 22, 2024.
 
-As of Jul 22, 2024 - Python 3.12 is not compatible with the OpenWebUI build.
+To move your entire machine default forward, run `pyenv global 3.12.2`
+
+	pyenv install 3.12.2
+	pyenv global 3.12.2
+
+
+If you need to use a prior version of Python,  
+view what's installed `pyenv virtualenvs`
+Here's an alternative to `-m venv env`
+
+	pyenv install 3.7.17
+	pyenv local 3.7.17
+	pyenv virtualenv 3.7.17 myenv
+	pyenv activate myenv
+
+To delete the current pyenv environment use `pyenv deactivate` since you won't have a myenv folder.
 
 ## pip
 
-How to stop your virtual environment and update pip. &nbsp;Avoid appending 3 (as in pip3 or python3) once in a virtual environment.
+How to stop your virtual environment and update pip.  
+Once in a virtual environment, avoid appending 3 (as in pip3 or python3) .
 
 	ctrl-c
 	python3 -m pip install --upgrade pip
 	pip -V
 
-
+<!--
 To check which shell you are using:
 
 	echo $SHELL
 
 If your shell is zsh, open .zshrc in your home directory. Add at the end of the file:
+Wasn't in there, and currently running python 3.12
 
 	export PATH="/Users/Library/Python/3.9/bin:$PATH"
 
@@ -118,7 +147,7 @@ Replace with the actual path where your python pip scripts are located.
 
 Close the current and open a new terminal window for the updated configuration.
 Type `echo $PATH` to verify.
-
+-->
 
 ## Conda
 
@@ -143,6 +172,17 @@ To open, run in the folder containing the .ipynb files you're editing.
 
 	jupyter notebook
 
+
+<!--
+Always run conda when opening a terminal. You'll see (base)
+
+	conda config --set auto_activate_base true
+
+Turn off (base).  This does NOT fix "error: externally-managed-environment"
+Use a virtual environment instead.
+
+	conda config --set auto_activate_base false
+-->
 
 ## Docker
 
