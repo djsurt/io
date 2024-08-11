@@ -1,6 +1,8 @@
-# Node, Python and Conda Notes
+# Node, Python, pyenv and Conda Notes
 
 ## Start a Virtual Environment 
+
+See the [pyenv](#pyenv) steps below if you need to run a different version of python.
 
 If you don't use a virtualenv, there's a chance you could break part of your OS.
 
@@ -87,15 +89,19 @@ You might also get a dialog to install xcode.
 
 	brew install python
 
-## pyenv
+## pyenv - for multiple versions of python
 
-**List all Python versions installed on your system**
-If you get none, but `python --version` return less than 3.0, you probably need to update your OS. Check if you have pyenv installed: `pyenv --version`
+Check if you have pyenv installed: `pyenv --version`
+If not, you can [install pyenv with homebrew](https://mac.install.guide/python/install-pyenv) or [with pip on Windows](https://github.com/pyenv-win/pyenv-win?tab=readme-ov-file#installation)
+
+List the Python versions installed on your machine:
 
 	ls -l /usr/local/bin/python*
 
+If your newest python version is python 2 or older, upgrade your machine's OS. 
 
-Sample of running python 3.10 for exiobase sankey:
+
+Sample of running python 3.10 for [Exiobase sankey trade data](https://github.com/ModelEarth/Mapping-global-ghg-emissions):
 
 	pyenv install 3.10  # Skip if you've already installed
 	pyenv local 3.10
