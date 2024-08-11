@@ -4,7 +4,7 @@
 
 See the [pyenv](#pyenv) steps below if you need to run a different version of python.
 
-If you don't use a virtualenv, there's a chance you could break part of your OS.
+Always using a virtualenv is a best-practice for protecting your OS.
 
 	python3 -m venv env
 	source env/bin/activate
@@ -179,15 +179,18 @@ To open, run in the folder containing the .ipynb files you're editing.
 	jupyter notebook
 
 
-<!--
-Always run conda when opening a terminal. You'll see (base)
+
+To always run conda when opening a terminal. You'll see (base)
 
 	conda config --set auto_activate_base true
 
-Turn off (base).  This does NOT fix "error: externally-managed-environment"
-Use a virtual environment instead.
+Turn off (base). 
 
 	conda config --set auto_activate_base false
+
+<!--
+Neither fixes "error: externally-managed-environment"
+Use a pyenv virtual environment to resolve.
 -->
 
 ## Docker
