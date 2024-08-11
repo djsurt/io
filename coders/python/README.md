@@ -66,18 +66,6 @@ Only python3 was available after running `brew install python` after upgrading t
 	python --version
 	python3 --version
 
-<!--
-	The above returned 2.7.16 on older mac which had Big Sur. Upgraded to Sonoma.
-
-
-# no effect, remove
-export PATH="$HOME/.pyenv/bin:$PATH"
-eval "$(pyenv init --path)"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
-
-source ~/.bashrc  # or source ~/.zshrc
--->
 
 If your python version is older, you may want to upgrade Python to 3.10 or 3.11.  
 3.10 is needed for the Nature journal Exiobase download for Sankey.  
@@ -109,9 +97,9 @@ Sample of running python 3.10 for [Exiobase sankey trade data](https://github.co
 	source env/bin/activate  # On Windows .\env\Scripts\activate
 	python --version
 
-Even in a virtual environment, pyenv global will update your machine.
-For OpenWebUI you can use the technique above for Python 3.11
-Python 3.12 was not compatible with the OpenWebUI build Jul 22, 2024.
+Even in a virtual environment, "pyenv global" will update your machine.
+[For OpenWebUI projects](/projects/location/setup) you can use the technique above to use Python 3.11.
+Python 3.12 was not compatible with the OpenWebUI build as of Jul 22, 2024.
 
 To move your entire machine default forward, run `pyenv global 3.12.2`
 
