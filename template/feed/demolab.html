@@ -2,7 +2,7 @@
 <html lang="en-us">
 <head>
 <meta charset="utf-8">
-<title>openEPD Feed</title>
+<title>Projects Feed</title>
 <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon"> 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -176,7 +176,9 @@ $(document).ready(function () {
 	//  	zip = param["zip"]
 	//}
 
-	url = "https://www.democracylab.org/api/projects?page=2&sortField=-project_date_modified";
+	// Added as guess: 
+	let countStr = "pagecount=10&count=10&rowcount=10&";
+	let url = "https://www.democracylab.org/api/projects?page=2" + countStr + "&sortField=-project_date_modified";
 
 
 	//console.log(url)
@@ -186,6 +188,13 @@ $(document).ready(function () {
 	// https://stackoverflow.com/questions/59307256/fetch-json-data-using-authorization-header-in-d3-v5
 
   d3.json(url).then(function(json,error) {
+
+  		console.log("json from API");
+  		console.log(json);
+  		return;
+
+  		// Page times out...
+
     	var fullHtml = '';
     	if (Array.isArray(json)) { // Other than DifBot - NASA when count included
     		for (a in json) {
