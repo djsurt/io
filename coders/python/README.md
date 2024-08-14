@@ -91,6 +91,8 @@ If your newest python version is python 2 or older, upgrade your machine's OS.
 
 Sample of running python 3.10 for [Exiobase sankey trade data](https://github.com/ModelEarth/Mapping-global-ghg-emissions):
 
+pyenv local 3.10  # Creates .python-version
+
 	pyenv install 3.10  # Skip if you've already installed
 	pyenv local 3.10
 	python3.10 -m venv env  # Before re-running, delete the existing env folder, or skip this line and reuse the env folder.
