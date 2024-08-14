@@ -165,6 +165,8 @@ and (max-device-width : 480px) {
 }
 </style>
 
+Move to feed
+
 <script type="text/javascript">
 
 $(document).ready(function () {
@@ -178,7 +180,9 @@ $(document).ready(function () {
 
 	// Added as guess: 
 	let countStr = "pagecount=10&count=10&rowcount=10&";
-	let url = "https://www.democracylab.org/api/projects?page=2&" + countStr + "sortField=-project_date_modified";
+
+	// Returns 30
+	let url = "https://www.democracylab.org/api/projects?page=2&sortField=-project_date_modified";
 
 
 	//console.log(url)
@@ -193,75 +197,6 @@ $(document).ready(function () {
   		console.log(json);
   		return;
 
-  		// Page times out...
-
-    	var fullHtml = '';
-    	if (Array.isArray(json)) { // Other than DifBot - NASA when count included
-    		for (a in json) {
-    			fullHtml += "<div class='level1'><b>Product ID:</b> " + json[a].id + "</div>\n";
-    			for (b in json[a]) {
-    				fullHtml += formatRow(b,json[a][b],1); // Resides in localsite.js
-    			}
-    		}
-    	} else {
-    		if (!json.data) {
-    			json.data = json; // For NASA
-    		}
-			for (a in json.data) { // An object. a key is 0,1,2,3,..
-
-	          fullHtml += "<div class='level1'>" + json.data[a].name + "</div>\n";
-	          for (b in json.data[a]) {//b is value like allNames: ["AirWatch"], so b is key for  ["AirWatch"]
-
-	          	addHtml = "";
-	          	
-	          	addHtml += formatRow(b,json.data[a][b],1); // Resides in localsite.js
-	         
-	      		//resultFull.innerHTML = resultFull.innerHTML + addHtml;
-	      		fullHtml += addHtml;
-	          }
-	      	}
-	    }
-      	resultFull.innerHTML = fullHtml;
-      	result.innerHTML = '';
-
-      	// After results added to innerHTML
-	  	var anchors = document.getElementsByClassName('level1');
-        for(var i = 0; i < anchors.length; i++) {
-            var anchor = anchors[i];
-            //if((/\blevel1\b/).match(anchor.className)) {
-                anchor.onclick = function() {
-
-                	//alert("clicked")
-                    // These need to be revised to open current section
-
-                    var arrayOfElements=document.getElementsByClassName('level2');
-					var lengthOfArray=arrayOfElements.length;
-
-					for (var i=0; i<lengthOfArray;i++){
-					    arrayOfElements[i].classList.remove('hidden');
-					}
-
-					var arrayOfElements3=document.getElementsByClassName('level3');
-					var lengthOfArray3=arrayOfElements3.length;
-
-					for (var i=0; i<lengthOfArray3;i++){
-					    arrayOfElements3[i].classList.remove('hidden');
-					}
-
-					// At time of development there was not a level4 in DiffBot - A precaution
-					var arrayOfElements4=document.getElementsByClassName('level4');
-					var lengthOfArray4=arrayOfElements4.length;
-
-					for (var i=0; i<lengthOfArray4;i++){
-					    arrayOfElements4[i].classList.remove('hidden');
-					}
-
-                }
-            //}
-        }
-
-        if (error) throw error;
-        console.log(json);
     });
 });
 </script>
