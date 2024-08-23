@@ -3,7 +3,7 @@
 Generating from [USEEIOR model objects](https://github.com/USEPA/useeior/blob/master/format_specs/Model.md)
 Table names are Row\_Column from [matrix tables](matrix/).
 Source json data: [2020 US States](https://github.com/ModelEarth/OpenFootprint/tree/main/impacts/2020) - [CoLab](https://colab.research.google.com/drive/1CYKNTnLiZ_PbP5WS_dMVtYyYDIAFwzq8?usp=sharing)
-Also see our [International Trade SQL](/useeio.js/footprint/)
+Also see our [International Trade Supabase SQL](/OpenFootprint/prep/sql/supabase/)
 
 TO DO:<!--IN PROGRESS by Sahil and Himanshu-->
 1.) Add .json support to [supabase-db-loader2.py](https://github.com/ModelEarth/OpenFootprint/tree/main/prep/sql/supabase) and  
