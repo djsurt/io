@@ -9,7 +9,7 @@ and [slide presentation](https://smartcities.ipat.gatech.edu/sites/default/files
 <!--Learn about [USEEIO](/community/about/useeio/)  
 Learn about [the USEEIO API](api/)-->
 
-
+We're working toward pushing impact data into Google Data Commons using easy-to-understand table naming conventions. More [moonshots](/community/projects/).
 
 ## Timeline
 
