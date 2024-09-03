@@ -94,6 +94,7 @@ We're using [Open WebUI](../../projects/src/) and [Earthscape](../../earthscape/
 
 [We're creating an API Feed Player](/feed/intro.html) for local [supply chains and job levels](/localsite/info/), [industry timelines](/data-pipeline/timelines/), [food labels](/data-commons/docs/food/) and [product profiles](../../io/template/).  
 
+We have a new "[home](/home)" repo for highlighting team contributions. If you'd like more granular reporting, here's a [speadsheet for weekly logs](https://docs.google.com/spreadsheets/d/1wvw_xsFWnYE9z8nDQqmu1m2LB5TJEfy5VLkaFuEaCfk/edit?usp=sharing).
 <!--
 - [Connect with us at Democracy Lab if you haven't already](https://www.democracylab.org/projects/834)
 - [Get Started by installing our Localsite repos (with one cmd)](../../localsite/start/steps/)

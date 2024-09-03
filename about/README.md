@@ -1,4 +1,5 @@
 ## Background
+[useeio.js Javascript Reports ](/useeio.js/footprint) - 
 [Our state model data](https://github.com/ModelEarth/OpenFootprint/tree/main/impacts/2020) uses the US Environmentally-Extended Input Output (USEEIO) model of goods and services with Bureau of Labor Statistics (BLS) [data](https://model.earth/data-pipeline/). The data is freely available to use by industry, academia, nonprofits, and government agencies.  <!--In 2019, -->The US EPA awarded a [Regional Sustainability and Environmental Sciences Research Program (RESES)](https://www.epa.gov/research/regional-sustainability-and-environmental-sciences-research-program-reses) grant <!--(Community-driven Application Development Using USEEIO Models) to support EPA and the Georgia Center of Innovation for Energy --> to work with local communities in Georgia to build open-source interfaces for the model. The tools developed are now broadly available to other organizations, states and countries.  
 
 [Supply Chain Inflow-Outflow](../../localsite/info/)  

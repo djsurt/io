@@ -25,7 +25,7 @@ from the same [create-database-useeio.yaml](https://github.com/ModelEarth/OpenFo
 | Impact (IndicatorSectorDirect) | [D matrix](matrix/)  |
 | Commodity | [q matrix](/useeio.js/footprint/tabulator.html) |
 | SectorSector (Leontief) | [L matrix](https://github.com/USEPA/useeior/blob/master/format_specs/Model.md#indicators) |
-| FactorCommodityImport (Imports Commodity) | [M matrix](matrix/) |
+| FactorCommodityImport (Import Commodity derived from EXIOBASE) | [M matrix](matrix/) |
 | IndicatorSectorIndirect (Impact Totals) | [N matrix](matrix/) |
 | CommodityIndustry<br>Value Added to FinalDemand | [U matrix](https://github.com/USEPA/useeior/blob/master/format_specs/Model.md#indicators) |
 | IndustryCommodity (Make) | [V matrix](https://github.com/USEPA/useeior/blob/master/format_specs/Model.md#indicators) |
