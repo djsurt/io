@@ -71,6 +71,8 @@ If your local widgets reference the "useeio" folder, they may need to be updated
 
 ## React Widgets
 
+The React widgets extend the [USEEIO Javascript (useeio.js)](/useeio.js/footprint) where you can edit javascript reports directly.
+
 [View documentation and functions](https://msrocka.github.io/useeio-widget-builds/apidoc/) generated using [TypeDoc](https://typedoc.org/).  
 The React widgets in the [io repo](https://github.com/modelearth/io/) originate from the EPA's [USEEIO-widgets repo](https://github.com/USEPA/useeio-widgets/).   
 Note: EPA downgraded reactjs from ^18.2.0 to ^17.0.2 to solve compability issue with MAC. (Jan 2024)
