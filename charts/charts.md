@@ -99,6 +99,12 @@ The io repo includes additional code for integrating widgets.
 
 Also see our [Javascript with API TO DOs](/useeio.js/footprint/#reports) (at the bottom of that page)
 
+### TO DO: Widget fix for EPA state model v1.0
+
+Data no longer loads in  widgets. View by appending [beta=true](http://localhost:8887/io/charts/inflow-outflow/#set=prosperity&indicators=VADD,JOBS&state=GA&beta=true)  
+Issue may be related to change to 73 sectors.  
+Posted in Github as [State model v1.0 not supported by widgets](https://github.com/usepa/useeio-widgets/)
+
 ### TO DO: Activate checkboxes to sort using multiple impact columns
 
 Mock up (except we'll avoid the lines around the boxes and columns):

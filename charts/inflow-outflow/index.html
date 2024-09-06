@@ -170,11 +170,6 @@
 
 <a href="../">IO Charts</a>
 
-<h3>React Team</h3>
-
-<b>Navigation using Indicators List from IO Chart</b> -  You can see the impact list by clicking the 3-bar menu on the center column below and on <a href="/localsite/info/">Industry Comparison Page</a>. Add a sidenav.html page in the <a href="../../build/">build folder</a> to demo the new side navigation. Include a parameter for showing the checkboxes.<br><br><br>
-
-
         <div style="float:right;">
             <div id="impactIcons">
                 <!--  some must be wrong -->
@@ -302,16 +297,35 @@
     var hiddenhash = {
         indicators: "VADD"
     };
-
+    let hash = getHash();
     var config = useeio.urlConfig();
-    var modelID = config.get().model || 'USEEIOv2.0';
-    //modelID = "GAEEIOv1.0";
+    
+    let endpoint = "/io/build/api";
+    if (hash.beta == "true") {
+        endpoint = "/OpenFootprint/impacts/2020";
+    }
+
+    let theModel = 'USEEIOv2.0.1-411'; // Previously USEEIOv2.0
+    if (hash.beta == "true") {
+        if (hash.state) { // Prior to 2024 states were GA, ME, MN, OR, WA
+            let thestate = hash.state.split(",")[0].toUpperCase();
+            theModel = thestate + "EEIOv1.0-s-20"
+
+            naics = ""; // TEMP. 
+
+            // With transition to 73 Sectors the Naics are not in the models.
+            alert("BETA BUG with transition to 73 Sectors. Model:\r" + endpoint + "/" + theModel);
+        }
+    }
+    var modelID = config.get().model || theModel;
+
     if (param.iomodel) {
         modelID = param.iomodel;
     }
 
+
     var model = useeio.model({
-        endpoint: '/io/build/api',
+        endpoint: endpoint,
         model: modelID,
         asJsonFiles: true,
     });

@@ -11,6 +11,8 @@
 
 <body>
     <div style="margin: auto;">
+
+        Model is set to state v1.0 to show issue.<br><br>
         <div id="iogrid"></div>
     </div>
 
@@ -23,7 +25,9 @@
 
         var config = useeio.urlConfig();
         var modelID = config.get().model || 'USEEIOv2.0';
-        //modelID = "GAEEIOv1.0";
+
+        // To show issue
+        modelID = "GAEEIOv1.0";
 
         var model = useeio.model({
             endpoint: './api',
