@@ -42,7 +42,6 @@ Collaborate on open source modeling tools.
 
 <h1>For Coders & Designers</h1>
 
-View our [Active Projects](../../projects/) and find your areas of interest.
 
 <style>
 .blinking {
@@ -55,7 +54,6 @@ View our [Active Projects](../../projects/) and find your areas of interest.
   0% {
     opacity: 1;
   }
-
   50% {
     opacity: 0
   }
@@ -68,23 +66,24 @@ View our [Active Projects](../../projects/) and find your areas of interest.
 <!--
 **<span class="blinking">NOTICE</span>** This week (May 9, 2024) our Thursday meeting will 10 AM EDT
 -->
-
-Join us in our [Google Meetup](https://meet.google.com/pcv-xrdh-bat) (Eastern Time, NY and Atlanta)
+View our [Active Projects](../../projects/) and find your areas of interest.  
+Join us in our 3 weekly [Google Meetups](https://meet.google.com/pcv-xrdh-bat) (Eastern Time, NY and Atlanta)
 <!-- Moonshot Mondays, 10 PM EDT - [UN Goals](/data-commons/dist/), [Lunar Olympics AI](/projects/)-->
 
 **Wednesday @ 11 AM EDT** 
-[Project overviews](/projects/), [Python with LLM APIs](/projects/src/), [EarthScape NextJS](/earthscape/app/)
-
 **Friday @ 6 PM EDT**
-[SQL with international trade data](/useeio.js/footprint/)
-
 **Sunday @ 11 PM EDT**
-[RealityStream ML](/RealityStream/), [React FeedPlayer](/feed/dist/), [International Trade](/useeio.js/footprint/) and [Python Pipeline](/data-pipeline/timelines/)
 
-<!--
-- [Other evenings plus Monday and Tuesday afternoons](https://meet.google.com/pcv-xrdh-bat)-->
+**Topics include**
+[Active Project Overviews](/projects/)  
+[React FeedPlayer](/feed/dist/)  
+[Python Pipeline](/data-pipeline/timelines/)  
+[Open WebUI Install](/projects/src/)  
+[EarthScape NextJS](/earthscape/app/)  
+[International Trade SQL](/useeio.js/footprint/)
+[RealityStream ML](/RealityStream/)
 
-[Our Google Meetup link](https://meet.google.com/pcv-xrdh-bat)  remains the same for all meetings.
+[Our Google Meetup link](https://meet.google.com/pcv-xrdh-bat)  is the same for all meetings.
 
 ---
 
