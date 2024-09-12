@@ -25,7 +25,8 @@ We're working toward pushing impact data into Google Data Commons using easy-to-
 - Fall 2022: [B2B Recycling Directory](../../localsite/map/#show=recyclers&state=GA)
 - Winter 2023: Updates to [Data Pipeline for Counties](https://model.earth/data-pipeline/)
 - Spring 2024: Additions to [Community Data for Timelines](https://model.earth/community-data/)
-- Summer 2024: Exiobase [International Trade SQL tables](https://model.earth/useeio.js/footprint/)
+- Summer 2024: Exiobase [International Trade SQL tables](https://model.earth/OpenFootprint/trade/)
+- Fall 2024: Feed Player, RealityStream [Active Projects](https://model.earth/projects/)
 <br>
 
 [USEEIO Versions](https://www.epa.gov/land-research/us-environmentally-extended-input-output-useeio-technical-content) - [Volunteer Projects](../../io/projects/) - [Starter Samples](../../localsite/start/)  
