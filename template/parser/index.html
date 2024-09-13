@@ -134,7 +134,13 @@ observer.observe(document.getElementById('source'), { subtree: true, characterDa
 
 // Function to format YAML
 function formatYaml() {
+
+    // Footprint Label - This loads when others don't.
+    // It's populated by formatYamlLabel().
     const profileContainer = document.getElementById('profileContainer');
+
+    // #source initially contains "test"
+    // It gets applied to 2 others: #dst and #formatted (below top three)
     const sourceDiv = document.getElementById("source");
     const yamldata = sourceDiv.value;
     formatYamlLabel(yamldata,profileContainer);
