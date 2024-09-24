@@ -70,7 +70,8 @@ View our [Active Projects](../../projects/) and find your areas of interest.
 Join us in our 3 weekly [Google Meetups](https://meet.google.com/pcv-xrdh-bat) (Eastern Time, NY and Atlanta)
 <!-- Moonshot Mondays, 10 PM EDT - [UN Goals](/data-commons/dist/), [Lunar Olympics AI](/projects/)-->
 
-**Wednesday @ 11 AM EDT** - before noon
+**Wednesday @ 4 PM EDT** - this week only (Sept 25)
+**Wednesday @ 11 AM EDT** - regular time - before noon (Oct 2nd and forward)
 **Friday @ 6 PM EDT** - evening
 **Sunday @ 11 PM EDT** - night
 

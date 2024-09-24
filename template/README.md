@@ -5,6 +5,8 @@
 [Select states and counties](#geoview=country) to explore local industry impacts
 [Product Comparisons](/OpenFootprint/products/) and [Building Transparency API](/io/template/feed/)
 
+[Why strict YAML instead of TOML](https://hitchdev.com/strictyaml/why-not/toml/) and our [TOML parse to json](toml)
+
 ---
 <br>
 <div>Applied Sciences - LCA Edition - Article Draft</div>

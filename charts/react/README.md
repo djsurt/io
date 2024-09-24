@@ -18,6 +18,7 @@ You'll need a current version of [Node.js](https://nodejs.org) installed. View o
 ## Quick Steps
 
 Run these in the useeio-widgets folder rather than the parent webroot:
+npm ci (clean install) is similar to npm install, but doesn't modify the package-lock.json.
 
 	npm ci
 	npm run server

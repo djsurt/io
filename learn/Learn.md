@@ -12,7 +12,7 @@ Our research and teaching tools use dynamic charts to present over 10 million da
 
 Learn about the science and principles behind environmentally-extended input-output (EEIO).
 
-- [Coding Project Areas](/community/projects/) 
+- [Coding Project Moonshots](/community/projects/) and [Active Projects](/projects)
 - [IO Charts - Impact Widgets](/io/charts/)  
 - [Learn about the Input-Output Model Matrix](/io/about/matrix/)  
 An introduction to Matrix Algebra and Factor Preparation
