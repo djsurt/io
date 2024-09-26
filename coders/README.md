@@ -92,7 +92,7 @@ Join us in our 3 weekly [Google Meetups](https://meet.google.com/pcv-xrdh-bat) (
 
 We're using [Open WebUI](../../projects/src/) and [Earthscape](../../earthscape/app/) to intereact with data from [Google Data Commons](../../data-commons/) in [Open Data Panels](/OpenFootprint).
 
-[We're creating an API Feed Player](/feed/intro.html) for local [supply chains and job levels](/localsite/info/), [industry timelines](/data-pipeline/timelines/), [food labels](/data-commons/docs/food/) and [product profiles](../../io/template/).  
+[We're creating an API Feed Player](/feed/) for local [supply chains and job levels](/localsite/info/), [industry timelines](/data-pipeline/timelines/), [food labels](/data-commons/docs/food/) and [product profiles](../../io/template/).  
 
 We have a new "[home](/home)" repo for highlighting team contributions. If you'd like more granular reporting, here's a [speadsheet for weekly logs](https://docs.google.com/spreadsheets/d/1wvw_xsFWnYE9z8nDQqmu1m2LB5TJEfy5VLkaFuEaCfk/edit?usp=sharing).
 <!--
