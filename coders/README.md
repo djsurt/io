@@ -76,8 +76,8 @@ Join us in our 3 weekly [Google Meetups](https://meet.google.com/pcv-xrdh-bat) (
 **Sunday @ 11 PM EDT** - night
 
 **Topics include**
-[Active Project Overviews](/projects/)  
-[React FeedPlayer](/feed/dist/)  
+[Active Projects](/projects/)  
+[React FeedPlayer](/feed/)  
 [Python Pipeline](/data-pipeline/timelines/)  
 [Open WebUI Install](/projects/src/)  
 [EarthScape NextJS](/earthscape/app/)  
