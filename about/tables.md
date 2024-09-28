@@ -1,15 +1,9 @@
 ## SQL Table Names
 
-Generating from [USEEIOR model objects](https://github.com/USEPA/useeior/blob/master/format_specs/Model.md)
-Table names are Row\_Column from [matrix tables](matrix/).
-Source json data: [2020 US States](https://github.com/ModelEarth/OpenFootprint/tree/main/impacts/2020) - [CoLab](https://colab.research.google.com/drive/1CYKNTnLiZ_PbP5WS_dMVtYyYDIAFwzq8?usp=sharing)
+Our .json files are generated from [USEEIOR model objects](https://github.com/USEPA/useeior/blob/master/format_specs/Model.md)
+Upcoming table names are Row\_Column from [matrix tables](matrix/).
+Upcoming source json data: [2020 US States](https://github.com/ModelEarth/OpenFootprint/tree/main/impacts/2020) - [CoLab](https://colab.research.google.com/drive/1CYKNTnLiZ_PbP5WS_dMVtYyYDIAFwzq8?usp=sharing)
 Also see our [International Trade Supabase SQL](/OpenFootprint/prep/sql/supabase/)
-
-TO DO:<!--IN PROGRESS by Sahil and Himanshu-->
-1.) Add .json support to [supabase-db-loader2.py](https://github.com/ModelEarth/OpenFootprint/tree/main/prep/sql/supabase) and  
-also load [create-database-useeio.yaml](https://github.com/ModelEarth/OpenFootprint/blob/main/impacts/useeio/create-database-useeio.yaml) with [US 2020](https://github.com/ModelEarth/OpenFootprint/tree/main/impacts/2020/USEEIOv2.0.1-411). 
-2.) Create a loop that generates state [DuckDB files](/OpenFootprint/prep/sql/duckdb/)  
-from the same [create-database-useeio.yaml](https://github.com/ModelEarth/OpenFootprint/blob/main/impacts/useeio/create-database-useeio.yaml) with [US 2020](https://github.com/ModelEarth/OpenFootprint/tree/main/impacts/2020/USEEIOv2.0.1-411).  
 
 | Table Name | Source |
 | ----------- | ----------- |

@@ -3,6 +3,9 @@
 
 [Our state model data](https://github.com/ModelEarth/OpenFootprint/tree/main/impacts/2020) uses the US Environmentally-Extended Input Output (USEEIO) model of goods and services with Bureau of Labor Statistics (BLS) [data](https://model.earth/data-pipeline/). The data is freely available to use by industry, academia, nonprofits, and government agencies.  <!--In 2019, -->The US EPA awarded a [Regional Sustainability and Environmental Sciences Research Program (RESES)](https://www.epa.gov/research/regional-sustainability-and-environmental-sciences-research-program-reses) grant <!--(Community-driven Application Development Using USEEIO Models) to support EPA and the Georgia Center of Innovation for Energy --> to work with local communities in Georgia to build open-source interfaces for the model. The tools developed are now broadly available to other organizations, states and countries.  
 
+TO DO: Generate state [DuckDB files](/OpenFootprint/prep/sql/duckdb/) using [create-database-useeio.yaml](https://github.com/ModelEarth/OpenFootprint/blob/main/impacts/useeio/create-database-useeio.yaml) with [US 2020](https://github.com/ModelEarth/OpenFootprint/tree/main/impacts/2020/USEEIOv2.0.1-411). See sample of pulling from create-database yaml in our [International pull](/OpenFootprint/trade/).
+
+
 [Supply Chain Inflow-Outflow](../../localsite/info/)  
 [International Trade Flow](../../OpenFootprint/trade/)  
 [Lifecyle Tools Overview](../../community/tools/)<!--
