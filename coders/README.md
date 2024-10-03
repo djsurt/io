@@ -79,7 +79,7 @@ Join us in our 3 weekly [Google Meetups](https://meet.google.com/pcv-xrdh-bat) (
 [React FeedPlayer](/feed/)  
 [RealityStream ML](/RealityStream/)  
 [Python Pipeline](/data-pipeline/timelines/)  
-[Open WebUI Install](/projects/src/)  
+[Open WebUI Install](/projects/location/)  
 [EarthScape NextJS](/earthscape/app/)  
 
 [Our Google Meetup link](https://meet.google.com/pcv-xrdh-bat)  is the same for all meetings.
