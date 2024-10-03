@@ -75,7 +75,7 @@ Join us in our 3 weekly [Google Meetups](https://meet.google.com/pcv-xrdh-bat) (
 **Topics include**
 [Active Projects](/projects/)  
 [US EPA Javascript & SQL](/useeio.js/footprint/)  
-[International Trade SQL](/useeio.js/footprint/)  
+[International Trade SQL](/OpenFootprint/trade/)  
 [React FeedPlayer](/feed/)  
 [RealityStream ML](/RealityStream/)  
 [Python Pipeline](/data-pipeline/timelines/)  
