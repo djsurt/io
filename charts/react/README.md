@@ -23,7 +23,8 @@ npm ci (clean install) is similar to npm install, but doesn't modify the package
 	npm ci
 	npm run server
 
-Copy json files from [io repo](https://github.com/ModelEarth/io/tree/main/build/api) and place in useeio-widgets/build/api. (More info below)
+Copy json files from [io repo](https://github.com/ModelEarth/io/tree/main/build/api) and place in useeio-widgets/build/api. (More info below)  
+Or copy from [OpenFootprint/impacts](https://github.com/ModelEarth/OpenFootprint/tree/main/impacts/2020)
 
 Then start a new terminal, also in the useeio-widgets folder and run: (Takes 30 seconds)
 
