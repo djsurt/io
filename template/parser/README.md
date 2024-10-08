@@ -1,5 +1,9 @@
 [Footprint Builder](/io/template/)
 # Label Sample
-See the [food label](/data-commons/docs/food/) for better formating.  
+See the [Nutritionix Label](/data-commons/docs/food/) and our upcoming [Profile Object](/food/) for recent formating.  
+
+[YAML to HTML parser](../parser/)
+<!--
 Both are generated from YAML - [View source](https://github.com/ModelEarth/io/blob/main/template/product/product-nodashes.yaml)
 Data from [Building Transparency](/OpenFootprint/products/)
+-->
