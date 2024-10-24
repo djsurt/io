@@ -45,7 +45,7 @@ Here are [old model files](https://www.dropbox.com/sh/af48m0jsusgr3jg/AACzBSJwuj
 Read our [Lifecycle Tools Overview](https://model.earth//community/tools/) and contribute to our  
 [SQL State Model setup](/io/about/) and [International Trade Flow SQL](/useeio.js/footprint/)
 
-[How to Build USEEIO-Widgets locally](react) - Contribute code updates
+[How to Build USEEIO-Widgets locally (React)](react) - Contribute code updates
 
 ## JQuery Widgets 
 
@@ -93,7 +93,7 @@ The io repo includes additional code for integrating widgets.
 <!--[Developer build (thetisiboth)](https://thetisiboth.github.io/useeio-widget-builds/)  -->
 <!-- ([Recent build 1](https://msrocka.github.io/useeio-widget-builds/)) --> 
 
-[How to Build USEEIO-Widgets locally](react)
+[How to Build USEEIO-Widgets locally (React)](react)
 
 ## React TO DOs
 
