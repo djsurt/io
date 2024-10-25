@@ -21,7 +21,7 @@ These fixes are applied in our modelearth forks - updates by Lakshit
 
 1. [Package.js line 37](https://github.com/ModelEarth/useeio-widgets/pull/4/commits/d083b5012defb031c2f5b27718e77230908bdcb9) is pointed at modelearth/useeio.js repo for tslib fix.
 
-2. [Model.earth fork of useeio-widgets](https://github.com/ModelEarth/useeio-widgets/pull/4/commits/96e3c17be3a1da323730eea4b352c0907c827366) - package.lock uses modelearth/useeio.js (line 2) and lots of updates to package versions.
+2. [Model.earth fork of useeio-widgets](https://github.com/ModelEarth/useeio-widgets/pull/4/commits/96e3c17be3a1da323730eea4b352c0907c827366) - package.lock uses modelearth/useeio.js (line 2) and lots of updates to package versions for the [State v1.0 issue](https://github.com/USEPA/useeio-widgets/issues/98).
 
 
 ## Quick Steps
