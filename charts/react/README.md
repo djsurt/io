@@ -15,6 +15,15 @@ If you are collaborating through model.earth on updates, fork and clone [modelea
 
 You'll need a current version of [Node.js](https://nodejs.org) installed. View our [node and python install notes](/io/coders/python/)
 
+## Fixes for US EPA repo
+
+These fixes are applied in our modelearth forks - updates by Lakshit
+
+1. [Package.js line 37](https://github.com/ModelEarth/useeio-widgets/pull/4/commits/d083b5012defb031c2f5b27718e77230908bdcb9) is pointed at modelearth/useeio.js repo for tslib fix.
+
+2. [Model.earth fork of useeio-widgets](https://github.com/ModelEarth/useeio-widgets/pull/4/commits/96e3c17be3a1da323730eea4b352c0907c827366) - package.lock uses modelearth/useeio.js (line 2) and lots of updates to package versions.
+
+
 ## Quick Steps
 
 Run these in the useeio-widgets folder rather than the parent webroot:
