@@ -12,6 +12,7 @@
     <div class="io">
         <div style="margin: 0 auto;">
             <div class="matrix-title">Goods & Services</div><br><br>
+            Uses: PAEEIOv1.0-s-20
             <div class="sector-list">
             </div>
         </div>
@@ -21,7 +22,7 @@
     <script>
 
         var config = useeio.urlConfig();
-        var modelID = config.get().model || 'USEEIOv2.0';
+        var modelID = config.get().model || 'PAEEIOv1.0-s-20';
 
         var model = useeio.model({
             endpoint: './api',
@@ -39,7 +40,6 @@
         config.join(sectorList);
 
     </script>
-<link rel="stylesheet" href="/localsite/css/fonts/materialicons/icon.css" id="/localsite/css/fonts/materialicons/icon.css" />
 </body>
 
 </html>
