@@ -1,3 +1,8 @@
+// Similar to: https://github.com/USEPA/useeio.js/blob/dev/scripts/dumpjson.js
+// See use for pulling json files from EPA API.
+// The EPA will be discontinuing API and generating json api files directly from RStudio or Python.
+// https://github.com/USEPA/useeio.js
+
 const fs = require('fs');
 
 let endpoint = null;
